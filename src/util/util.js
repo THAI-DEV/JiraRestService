@@ -24,4 +24,15 @@ function pickField(data, arrField) {
   return result;
 }
 
-module.exports = { readJsonFile, pickField };
+//function write json file
+
+function writeJsonFile(fileSource, data) {
+  try {
+    fs.writeFileSync(fileSource, JSON.stringify(data, null, 2), 'utf8');
+    console.log('File written successfully');
+  } catch (err) {
+    console.error(err);
+  }
+}
+
+module.exports = { readJsonFile, pickField, writeJsonFile };

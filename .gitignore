@@ -46,3 +46,5 @@ resource
 .DS_Store
 Thumbs.db
 *.exe
+.env
+/output

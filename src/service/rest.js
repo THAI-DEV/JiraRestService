@@ -6,7 +6,7 @@ async function getUserAll() {
   const response = await fetch(url, {
     method: 'GET',
     headers: {
-      Authorization: app_cont.AUTHORIZATION,
+      Authorization: process.env.AUTHORIZATION,
       'Content-Type': 'application/json',
     },
   });
@@ -21,7 +21,7 @@ async function getProjectAll() {
   const response = await fetch(url, {
     method: 'GET',
     headers: {
-      Authorization: app_cont.AUTHORIZATION,
+      Authorization: process.env.AUTHORIZATION,
       'Content-Type': 'application/json',
     },
   });

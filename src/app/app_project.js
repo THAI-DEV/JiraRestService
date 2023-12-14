@@ -1,4 +1,7 @@
+require('dotenv').config();
+
 var _ = require('lodash');
+
 var util = require('./../util/util.js');
 var restSrv = require('./../service/rest.js');
 
@@ -23,6 +26,10 @@ async function main() {
 
   console.log(resultData);
   console.log(resultData.length, inputData.length);
+
+  if (process.env.IS_WRITE_OUTPUT_FILE === 'YES') {
+    util.writeJsonFile('./output/result_project.json', resultData);
+  }
 
   console.log('----  End  ----');
 }

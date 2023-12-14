@@ -16,3 +16,7 @@ Authorization: {{credential}}
 GET {{baseUrl}}/users/search?startAt=0&maxResults=0
 Authorization: {{credential}}
 
+
+### Get Project All
+GET {{baseUrl}}/project?startAt=0&maxResults=0
+Authorization: {{credential}}

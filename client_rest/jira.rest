@@ -1,4 +1,4 @@
-@baseUrl = https://jira-sense-info-tech.atlassian.net/rest/api/2
+@baseUrl = https://jira-sense-info-tech.atlassian.net/rest/api/3
 
 @credential = Basic cnVhbmdkZWNoQHNlbnNlLWluZm90ZWNoLmNvbTpBVEFUVDN4RmZHRjBfQkNkNVMwd3MyblFGS1JCWnFWeDVHNE9JNmx0VFpTbzJCQUF2VEVLcHc2NzZKMkFjOEF0RnllY0xHb2I5TmdLNnR1T052LXBoQlZTT2NrS3Z2a1V6ZDBoWVN0bS0xdTZpVDhSbkp5VlpQQ0FXVmE0cS1fREd3NTN1WE56ZHlWM010Sm9qVm51Q0RYa3ZhZEdjOTFMQUVjQmQteVVqSFgtSHAxYTVhby1HOVU9MTFBQzdBRjA=
 
@@ -13,5 +13,6 @@ Authorization: {{credential}}
 
 
 ### Get User All
-GET {{baseUrl}}/users/search
+GET {{baseUrl}}/users/search?startAt=0&maxResults=0
 Authorization: {{credential}}
+

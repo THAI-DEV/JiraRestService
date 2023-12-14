@@ -1,6 +1,6 @@
 [
     {
-        "self": "https://jira-sense-info-tech.atlassian.net/rest/api/2/user?accountId=712020:113bd825-ce78-4983-bdbe-fd4949519b7d",
+        "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/user?accountId=712020:113bd825-ce78-4983-bdbe-fd4949519b7d",
         "accountId": "712020:113bd825-ce78-4983-bdbe-fd4949519b7d",
         "accountType": "atlassian",
         "avatarUrls": {
@@ -14,7 +14,7 @@
         "locale": "en_GB"
     },
     {
-        "self": "https://jira-sense-info-tech.atlassian.net/rest/api/2/user?accountId=557058:f58131cb-b67d-43c7-b30d-6b58d40bd077",
+        "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/user?accountId=557058:f58131cb-b67d-43c7-b30d-6b58d40bd077",
         "accountId": "557058:f58131cb-b67d-43c7-b30d-6b58d40bd077",
         "accountType": "app",
         "avatarUrls": {
@@ -27,7 +27,7 @@
         "active": true
     },
     {
-        "self": "https://jira-sense-info-tech.atlassian.net/rest/api/2/user?accountId=5d53f3cbc6b9320d9ea5bdc2",
+        "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/user?accountId=5d53f3cbc6b9320d9ea5bdc2",
         "accountId": "5d53f3cbc6b9320d9ea5bdc2",
         "accountType": "app",
         "avatarUrls": {
@@ -40,7 +40,7 @@
         "active": true
     },
     {
-        "self": "https://jira-sense-info-tech.atlassian.net/rest/api/2/user?accountId=5cb4ae0e4b97ab11a18e00c7",
+        "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/user?accountId=5cb4ae0e4b97ab11a18e00c7",
         "accountId": "5cb4ae0e4b97ab11a18e00c7",
         "accountType": "app",
         "avatarUrls": {
@@ -53,7 +53,7 @@
         "active": true
     },
     {
-        "self": "https://jira-sense-info-tech.atlassian.net/rest/api/2/user?accountId=60e5a86a471e61006a4c51fd",
+        "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/user?accountId=60e5a86a471e61006a4c51fd",
         "accountId": "60e5a86a471e61006a4c51fd",
         "accountType": "app",
         "avatarUrls": {
@@ -66,7 +66,7 @@
         "active": true
     },
     {
-        "self": "https://jira-sense-info-tech.atlassian.net/rest/api/2/user?accountId=557058:0867a421-a9ee-4659-801a-bc0ee4a4487e",
+        "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/user?accountId=557058:0867a421-a9ee-4659-801a-bc0ee4a4487e",
         "accountId": "557058:0867a421-a9ee-4659-801a-bc0ee4a4487e",
         "accountType": "app",
         "avatarUrls": {
@@ -79,7 +79,7 @@
         "active": true
     },
     {
-        "self": "https://jira-sense-info-tech.atlassian.net/rest/api/2/user?accountId=557058:950f9f5b-3d6d-4e1d-954a-21367ae9ac75",
+        "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/user?accountId=557058:950f9f5b-3d6d-4e1d-954a-21367ae9ac75",
         "accountId": "557058:950f9f5b-3d6d-4e1d-954a-21367ae9ac75",
         "accountType": "app",
         "avatarUrls": {
@@ -92,7 +92,7 @@
         "active": true
     },
     {
-        "self": "https://jira-sense-info-tech.atlassian.net/rest/api/2/user?accountId=5dd64082af96bc0efbe55103",
+        "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/user?accountId=5dd64082af96bc0efbe55103",
         "accountId": "5dd64082af96bc0efbe55103",
         "accountType": "app",
         "avatarUrls": {
@@ -105,7 +105,7 @@
         "active": true
     },
     {
-        "self": "https://jira-sense-info-tech.atlassian.net/rest/api/2/user?accountId=557058:214cdd6a-ff93-4d8b-838b-62dfcf1a2a71",
+        "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/user?accountId=557058:214cdd6a-ff93-4d8b-838b-62dfcf1a2a71",
         "accountId": "557058:214cdd6a-ff93-4d8b-838b-62dfcf1a2a71",
         "accountType": "app",
         "avatarUrls": {
@@ -118,7 +118,7 @@
         "active": true
     },
     {
-        "self": "https://jira-sense-info-tech.atlassian.net/rest/api/2/user?accountId=5b6c7b3afbc68529c6c47967",
+        "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/user?accountId=5b6c7b3afbc68529c6c47967",
         "accountId": "5b6c7b3afbc68529c6c47967",
         "accountType": "app",
         "avatarUrls": {
@@ -131,7 +131,7 @@
         "active": true
     },
     {
-        "self": "https://jira-sense-info-tech.atlassian.net/rest/api/2/user?accountId=5cf112d31552030f1e3a5905",
+        "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/user?accountId=5cf112d31552030f1e3a5905",
         "accountId": "5cf112d31552030f1e3a5905",
         "accountType": "app",
         "avatarUrls": {
@@ -144,7 +144,7 @@
         "active": true
     },
     {
-        "self": "https://jira-sense-info-tech.atlassian.net/rest/api/2/user?accountId=63a22fb348b367d78a14c15b",
+        "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/user?accountId=63a22fb348b367d78a14c15b",
         "accountId": "63a22fb348b367d78a14c15b",
         "accountType": "app",
         "avatarUrls": {
@@ -157,7 +157,7 @@
         "active": true
     },
     {
-        "self": "https://jira-sense-info-tech.atlassian.net/rest/api/2/user?accountId=630db2cd9796033b256bc349",
+        "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/user?accountId=630db2cd9796033b256bc349",
         "accountId": "630db2cd9796033b256bc349",
         "accountType": "app",
         "avatarUrls": {
@@ -170,7 +170,7 @@
         "active": true
     },
     {
-        "self": "https://jira-sense-info-tech.atlassian.net/rest/api/2/user?accountId=712020:d6e169c7-e360-4f38-898c-2737a46d3c89",
+        "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/user?accountId=712020:d6e169c7-e360-4f38-898c-2737a46d3c89",
         "accountId": "712020:d6e169c7-e360-4f38-898c-2737a46d3c89",
         "accountType": "atlassian",
         "avatarUrls": {
@@ -184,7 +184,7 @@
         "locale": "en_US"
     },
     {
-        "self": "https://jira-sense-info-tech.atlassian.net/rest/api/2/user?accountId=70121:4412f95e-5a2d-4abd-8236-4e978138489a",
+        "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/user?accountId=70121:4412f95e-5a2d-4abd-8236-4e978138489a",
         "accountId": "70121:4412f95e-5a2d-4abd-8236-4e978138489a",
         "accountType": "atlassian",
         "emailAddress": "ruangdech@sense-infotech.com",
@@ -199,7 +199,7 @@
         "locale": "en_GB"
     },
     {
-        "self": "https://jira-sense-info-tech.atlassian.net/rest/api/2/user?accountId=712020:306b2f2b-0fa5-4384-963b-e9d63519f8bd",
+        "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/user?accountId=712020:306b2f2b-0fa5-4384-963b-e9d63519f8bd",
         "accountId": "712020:306b2f2b-0fa5-4384-963b-e9d63519f8bd",
         "accountType": "atlassian",
         "avatarUrls": {
@@ -212,7 +212,7 @@
         "active": false
     },
     {
-        "self": "https://jira-sense-info-tech.atlassian.net/rest/api/2/user?accountId=712020:dca8f9ce-d3d0-4a18-bdb2-72cfa0977ea5",
+        "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/user?accountId=712020:dca8f9ce-d3d0-4a18-bdb2-72cfa0977ea5",
         "accountId": "712020:dca8f9ce-d3d0-4a18-bdb2-72cfa0977ea5",
         "accountType": "atlassian",
         "avatarUrls": {
@@ -226,7 +226,7 @@
         "locale": "th"
     },
     {
-        "self": "https://jira-sense-info-tech.atlassian.net/rest/api/2/user?accountId=712020:7a05cda4-189b-4434-a819-5c0d9ba5215a",
+        "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/user?accountId=712020:7a05cda4-189b-4434-a819-5c0d9ba5215a",
         "accountId": "712020:7a05cda4-189b-4434-a819-5c0d9ba5215a",
         "accountType": "atlassian",
         "avatarUrls": {
@@ -241,7 +241,7 @@
         "locale": "en_US"
     },
     {
-        "self": "https://jira-sense-info-tech.atlassian.net/rest/api/2/user?accountId=712020:a887061b-c87d-4c6d-b420-738ce959f022",
+        "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/user?accountId=712020:a887061b-c87d-4c6d-b420-738ce959f022",
         "accountId": "712020:a887061b-c87d-4c6d-b420-738ce959f022",
         "accountType": "atlassian",
         "avatarUrls": {
@@ -255,7 +255,7 @@
         "locale": "en_US"
     },
     {
-        "self": "https://jira-sense-info-tech.atlassian.net/rest/api/2/user?accountId=5d256511a459740c4cdcf813",
+        "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/user?accountId=5d256511a459740c4cdcf813",
         "accountId": "5d256511a459740c4cdcf813",
         "accountType": "atlassian",
         "avatarUrls": {
@@ -269,7 +269,7 @@
         "locale": "th"
     },
     {
-        "self": "https://jira-sense-info-tech.atlassian.net/rest/api/2/user?accountId=712020:9cba8ac2-e7a1-4405-a359-53ad1b00d72c",
+        "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/user?accountId=712020:9cba8ac2-e7a1-4405-a359-53ad1b00d72c",
         "accountId": "712020:9cba8ac2-e7a1-4405-a359-53ad1b00d72c",
         "accountType": "atlassian",
         "avatarUrls": {
@@ -283,7 +283,7 @@
         "locale": "th"
     },
     {
-        "self": "https://jira-sense-info-tech.atlassian.net/rest/api/2/user?accountId=712020:b4a3ebee-779c-491c-9f05-cb2a2d90505c",
+        "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/user?accountId=712020:b4a3ebee-779c-491c-9f05-cb2a2d90505c",
         "accountId": "712020:b4a3ebee-779c-491c-9f05-cb2a2d90505c",
         "accountType": "atlassian",
         "avatarUrls": {
@@ -297,7 +297,7 @@
         "locale": "th"
     },
     {
-        "self": "https://jira-sense-info-tech.atlassian.net/rest/api/2/user?accountId=712020:3ec50792-7989-43fc-a688-1e324241fc19",
+        "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/user?accountId=712020:3ec50792-7989-43fc-a688-1e324241fc19",
         "accountId": "712020:3ec50792-7989-43fc-a688-1e324241fc19",
         "accountType": "atlassian",
         "avatarUrls": {
@@ -311,7 +311,7 @@
         "locale": "th"
     },
     {
-        "self": "https://jira-sense-info-tech.atlassian.net/rest/api/2/user?accountId=6119e12ebe6c430070281679",
+        "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/user?accountId=6119e12ebe6c430070281679",
         "accountId": "6119e12ebe6c430070281679",
         "accountType": "atlassian",
         "avatarUrls": {
@@ -325,7 +325,7 @@
         "locale": "en_US"
     },
     {
-        "self": "https://jira-sense-info-tech.atlassian.net/rest/api/2/user?accountId=712020:82de8efa-cb67-440c-ad79-c4b4d7bfc037",
+        "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/user?accountId=712020:82de8efa-cb67-440c-ad79-c4b4d7bfc037",
         "accountId": "712020:82de8efa-cb67-440c-ad79-c4b4d7bfc037",
         "accountType": "atlassian",
         "avatarUrls": {
@@ -339,7 +339,7 @@
         "locale": "th"
     },
     {
-        "self": "https://jira-sense-info-tech.atlassian.net/rest/api/2/user?accountId=712020:79cb9a1d-7ddd-4eae-ae88-11cf28d8326f",
+        "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/user?accountId=712020:79cb9a1d-7ddd-4eae-ae88-11cf28d8326f",
         "accountId": "712020:79cb9a1d-7ddd-4eae-ae88-11cf28d8326f",
         "accountType": "atlassian",
         "avatarUrls": {
@@ -353,7 +353,7 @@
         "locale": "en_US"
     },
     {
-        "self": "https://jira-sense-info-tech.atlassian.net/rest/api/2/user?accountId=712020:2024b03e-f93e-48b8-8f88-62a239089408",
+        "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/user?accountId=712020:2024b03e-f93e-48b8-8f88-62a239089408",
         "accountId": "712020:2024b03e-f93e-48b8-8f88-62a239089408",
         "accountType": "atlassian",
         "avatarUrls": {
@@ -367,7 +367,7 @@
         "locale": "en_US"
     },
     {
-        "self": "https://jira-sense-info-tech.atlassian.net/rest/api/2/user?accountId=712020:5639f016-5cde-4669-96fd-f2250ca57de8",
+        "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/user?accountId=712020:5639f016-5cde-4669-96fd-f2250ca57de8",
         "accountId": "712020:5639f016-5cde-4669-96fd-f2250ca57de8",
         "accountType": "atlassian",
         "avatarUrls": {
@@ -382,7 +382,7 @@
         "locale": "en_US"
     },
     {
-        "self": "https://jira-sense-info-tech.atlassian.net/rest/api/2/user?accountId=712020:16d07e53-aa33-4760-a579-c74a19bb4dc8",
+        "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/user?accountId=712020:16d07e53-aa33-4760-a579-c74a19bb4dc8",
         "accountId": "712020:16d07e53-aa33-4760-a579-c74a19bb4dc8",
         "accountType": "atlassian",
         "avatarUrls": {
@@ -395,7 +395,7 @@
         "active": false
     },
     {
-        "self": "https://jira-sense-info-tech.atlassian.net/rest/api/2/user?accountId=712020:10e0848a-3c83-4fdb-a99e-edcf38ffacf1",
+        "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/user?accountId=712020:10e0848a-3c83-4fdb-a99e-edcf38ffacf1",
         "accountId": "712020:10e0848a-3c83-4fdb-a99e-edcf38ffacf1",
         "accountType": "atlassian",
         "avatarUrls": {
@@ -409,7 +409,7 @@
         "locale": "th"
     },
     {
-        "self": "https://jira-sense-info-tech.atlassian.net/rest/api/2/user?accountId=712020:cfdbfda4-14ed-49f1-b4cc-e50bca05cf2c",
+        "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/user?accountId=712020:cfdbfda4-14ed-49f1-b4cc-e50bca05cf2c",
         "accountId": "712020:cfdbfda4-14ed-49f1-b4cc-e50bca05cf2c",
         "accountType": "atlassian",
         "avatarUrls": {
@@ -423,7 +423,7 @@
         "locale": "th"
     },
     {
-        "self": "https://jira-sense-info-tech.atlassian.net/rest/api/2/user?accountId=712020:a0c6e1ff-ce16-4649-83fe-4d0a52cb11e9",
+        "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/user?accountId=712020:a0c6e1ff-ce16-4649-83fe-4d0a52cb11e9",
         "accountId": "712020:a0c6e1ff-ce16-4649-83fe-4d0a52cb11e9",
         "accountType": "atlassian",
         "avatarUrls": {
@@ -437,7 +437,7 @@
         "locale": "en_US"
     },
     {
-        "self": "https://jira-sense-info-tech.atlassian.net/rest/api/2/user?accountId=712020:d00bcf1b-3139-4e19-96c6-f2b0ae3a5ff3",
+        "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/user?accountId=712020:d00bcf1b-3139-4e19-96c6-f2b0ae3a5ff3",
         "accountId": "712020:d00bcf1b-3139-4e19-96c6-f2b0ae3a5ff3",
         "accountType": "atlassian",
         "avatarUrls": {
@@ -451,7 +451,7 @@
         "locale": "en_US"
     },
     {
-        "self": "https://jira-sense-info-tech.atlassian.net/rest/api/2/user?accountId=712020:ee8b3ae6-c2ec-4751-b14b-d664a52d5ee9",
+        "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/user?accountId=712020:ee8b3ae6-c2ec-4751-b14b-d664a52d5ee9",
         "accountId": "712020:ee8b3ae6-c2ec-4751-b14b-d664a52d5ee9",
         "accountType": "atlassian",
         "avatarUrls": {
@@ -465,7 +465,7 @@
         "locale": "th"
     },
     {
-        "self": "https://jira-sense-info-tech.atlassian.net/rest/api/2/user?accountId=70121:2d727ad1-e1bf-4efe-bcc9-c53a1bf8c814",
+        "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/user?accountId=70121:2d727ad1-e1bf-4efe-bcc9-c53a1bf8c814",
         "accountId": "70121:2d727ad1-e1bf-4efe-bcc9-c53a1bf8c814",
         "accountType": "atlassian",
         "avatarUrls": {
@@ -479,7 +479,7 @@
         "locale": "th"
     },
     {
-        "self": "https://jira-sense-info-tech.atlassian.net/rest/api/2/user?accountId=712020:e6212246-36bf-4eb5-9e57-f01fb8e641e2",
+        "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/user?accountId=712020:e6212246-36bf-4eb5-9e57-f01fb8e641e2",
         "accountId": "712020:e6212246-36bf-4eb5-9e57-f01fb8e641e2",
         "accountType": "atlassian",
         "avatarUrls": {
@@ -493,7 +493,7 @@
         "locale": "th"
     },
     {
-        "self": "https://jira-sense-info-tech.atlassian.net/rest/api/2/user?accountId=6201c60bc4e2c9006ae5c8e9",
+        "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/user?accountId=6201c60bc4e2c9006ae5c8e9",
         "accountId": "6201c60bc4e2c9006ae5c8e9",
         "accountType": "app",
         "avatarUrls": {
@@ -506,7 +506,7 @@
         "active": true
     },
     {
-        "self": "https://jira-sense-info-tech.atlassian.net/rest/api/2/user?accountId=712020:35d7d326-61b6-4ac1-9d77-723a268abb2f",
+        "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/user?accountId=712020:35d7d326-61b6-4ac1-9d77-723a268abb2f",
         "accountId": "712020:35d7d326-61b6-4ac1-9d77-723a268abb2f",
         "accountType": "atlassian",
         "avatarUrls": {
@@ -520,7 +520,7 @@
         "locale": "en_US"
     },
     {
-        "self": "https://jira-sense-info-tech.atlassian.net/rest/api/2/user?accountId=712020:07e10b6f-c956-47f2-9f7f-01df5073033f",
+        "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/user?accountId=712020:07e10b6f-c956-47f2-9f7f-01df5073033f",
         "accountId": "712020:07e10b6f-c956-47f2-9f7f-01df5073033f",
         "accountType": "atlassian",
         "avatarUrls": {
@@ -534,7 +534,7 @@
         "locale": "en_US"
     },
     {
-        "self": "https://jira-sense-info-tech.atlassian.net/rest/api/2/user?accountId=712020:c980e9c3-c2cd-4c4a-b3eb-3a05a43e0fe2",
+        "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/user?accountId=712020:c980e9c3-c2cd-4c4a-b3eb-3a05a43e0fe2",
         "accountId": "712020:c980e9c3-c2cd-4c4a-b3eb-3a05a43e0fe2",
         "accountType": "atlassian",
         "avatarUrls": {
@@ -548,7 +548,7 @@
         "locale": "th"
     },
     {
-        "self": "https://jira-sense-info-tech.atlassian.net/rest/api/2/user?accountId=70121:e20df248-34c9-47a2-9236-bc6add0c6a94",
+        "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/user?accountId=70121:e20df248-34c9-47a2-9236-bc6add0c6a94",
         "accountId": "70121:e20df248-34c9-47a2-9236-bc6add0c6a94",
         "accountType": "atlassian",
         "avatarUrls": {
@@ -562,7 +562,7 @@
         "locale": "en_US"
     },
     {
-        "self": "https://jira-sense-info-tech.atlassian.net/rest/api/2/user?accountId=712020:68b76538-0635-4f8d-bbb0-57867dd3eb52",
+        "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/user?accountId=712020:68b76538-0635-4f8d-bbb0-57867dd3eb52",
         "accountId": "712020:68b76538-0635-4f8d-bbb0-57867dd3eb52",
         "accountType": "atlassian",
         "avatarUrls": {
@@ -576,7 +576,7 @@
         "locale": "th"
     },
     {
-        "self": "https://jira-sense-info-tech.atlassian.net/rest/api/2/user?accountId=712020:a3d3a05f-ae15-47a9-8dad-8e8a40e3231d",
+        "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/user?accountId=712020:a3d3a05f-ae15-47a9-8dad-8e8a40e3231d",
         "accountId": "712020:a3d3a05f-ae15-47a9-8dad-8e8a40e3231d",
         "accountType": "atlassian",
         "avatarUrls": {
@@ -590,7 +590,7 @@
         "locale": "en_US"
     },
     {
-        "self": "https://jira-sense-info-tech.atlassian.net/rest/api/2/user?accountId=5b73c8a9b974540708ee0ef8",
+        "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/user?accountId=5b73c8a9b974540708ee0ef8",
         "accountId": "5b73c8a9b974540708ee0ef8",
         "accountType": "atlassian",
         "avatarUrls": {
@@ -604,7 +604,7 @@
         "locale": "en_US"
     },
     {
-        "self": "https://jira-sense-info-tech.atlassian.net/rest/api/2/user?accountId=712020:f0617f82-2f38-4c16-ab4c-623d99f0734e",
+        "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/user?accountId=712020:f0617f82-2f38-4c16-ab4c-623d99f0734e",
         "accountId": "712020:f0617f82-2f38-4c16-ab4c-623d99f0734e",
         "accountType": "atlassian",
         "avatarUrls": {
@@ -618,7 +618,7 @@
         "locale": "th"
     },
     {
-        "self": "https://jira-sense-info-tech.atlassian.net/rest/api/2/user?accountId=712020:ab598b7f-d335-45cd-af89-fd2e3c53ee00",
+        "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/user?accountId=712020:ab598b7f-d335-45cd-af89-fd2e3c53ee00",
         "accountId": "712020:ab598b7f-d335-45cd-af89-fd2e3c53ee00",
         "accountType": "atlassian",
         "avatarUrls": {
@@ -632,7 +632,7 @@
         "locale": "th"
     },
     {
-        "self": "https://jira-sense-info-tech.atlassian.net/rest/api/2/user?accountId=712020:8b4f820d-8585-4def-bfde-037f1eea43fb",
+        "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/user?accountId=712020:8b4f820d-8585-4def-bfde-037f1eea43fb",
         "accountId": "712020:8b4f820d-8585-4def-bfde-037f1eea43fb",
         "accountType": "atlassian",
         "avatarUrls": {
@@ -646,7 +646,7 @@
         "locale": "en_US"
     },
     {
-        "self": "https://jira-sense-info-tech.atlassian.net/rest/api/2/user?accountId=712020:dff74456-e329-460b-94f7-80a221940d83",
+        "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/user?accountId=712020:dff74456-e329-460b-94f7-80a221940d83",
         "accountId": "712020:dff74456-e329-460b-94f7-80a221940d83",
         "accountType": "atlassian",
         "avatarUrls": {
@@ -660,7 +660,7 @@
         "locale": "th"
     },
     {
-        "self": "https://jira-sense-info-tech.atlassian.net/rest/api/2/user?accountId=712020:567550df-41e5-4fe5-b515-da360e9d07ed",
+        "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/user?accountId=712020:567550df-41e5-4fe5-b515-da360e9d07ed",
         "accountId": "712020:567550df-41e5-4fe5-b515-da360e9d07ed",
         "accountType": "atlassian",
         "avatarUrls": {
@@ -674,7 +674,7 @@
         "locale": "en_GB"
     },
     {
-        "self": "https://jira-sense-info-tech.atlassian.net/rest/api/2/user?accountId=5d2c49332d76f30c36bf57bc",
+        "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/user?accountId=5d2c49332d76f30c36bf57bc",
         "accountId": "5d2c49332d76f30c36bf57bc",
         "accountType": "atlassian",
         "avatarUrls": {
@@ -686,5 +686,241 @@
         "displayName": "Adisornjo",
         "active": true,
         "locale": "en_US"
+    },
+    {
+        "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/user?accountId=70121:ff1614f8-70f2-4330-abca-2cce905670ca",
+        "accountId": "70121:ff1614f8-70f2-4330-abca-2cce905670ca",
+        "accountType": "atlassian",
+        "avatarUrls": {
+            "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/70121:ff1614f8-70f2-4330-abca-2cce905670ca/a699144a-8b59-424a-9bce-bcce72177f2a/48",
+            "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/70121:ff1614f8-70f2-4330-abca-2cce905670ca/a699144a-8b59-424a-9bce-bcce72177f2a/24",
+            "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/70121:ff1614f8-70f2-4330-abca-2cce905670ca/a699144a-8b59-424a-9bce-bcce72177f2a/16",
+            "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/70121:ff1614f8-70f2-4330-abca-2cce905670ca/a699144a-8b59-424a-9bce-bcce72177f2a/32"
+        },
+        "displayName": "kreingkrai.c",
+        "active": true,
+        "locale": "en_US"
+    },
+    {
+        "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/user?accountId=712020:cdadd663-772f-4a03-9a42-0091f9d51335",
+        "accountId": "712020:cdadd663-772f-4a03-9a42-0091f9d51335",
+        "accountType": "atlassian",
+        "avatarUrls": {
+            "48x48": "https://secure.gravatar.com/avatar/870d5bf4ecd2e63a6d139f87543e19e6?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FN-1.png",
+            "24x24": "https://secure.gravatar.com/avatar/870d5bf4ecd2e63a6d139f87543e19e6?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FN-1.png",
+            "16x16": "https://secure.gravatar.com/avatar/870d5bf4ecd2e63a6d139f87543e19e6?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FN-1.png",
+            "32x32": "https://secure.gravatar.com/avatar/870d5bf4ecd2e63a6d139f87543e19e6?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FN-1.png"
+        },
+        "displayName": "natthawat",
+        "active": false
+    },
+    {
+        "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/user?accountId=712020:90a3ed35-5c4f-43ef-bff8-d517227ec261",
+        "accountId": "712020:90a3ed35-5c4f-43ef-bff8-d517227ec261",
+        "accountType": "atlassian",
+        "avatarUrls": {
+            "48x48": "https://secure.gravatar.com/avatar/620ab02d4b156faeee2714c4ea3ae3c2?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FN-4.png",
+            "24x24": "https://secure.gravatar.com/avatar/620ab02d4b156faeee2714c4ea3ae3c2?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FN-4.png",
+            "16x16": "https://secure.gravatar.com/avatar/620ab02d4b156faeee2714c4ea3ae3c2?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FN-4.png",
+            "32x32": "https://secure.gravatar.com/avatar/620ab02d4b156faeee2714c4ea3ae3c2?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FN-4.png"
+        },
+        "displayName": "Nimit",
+        "active": true,
+        "locale": "th"
+    },
+    {
+        "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/user?accountId=712020:41c8d94b-3922-4e87-bfdb-f92747de939d",
+        "accountId": "712020:41c8d94b-3922-4e87-bfdb-f92747de939d",
+        "accountType": "atlassian",
+        "avatarUrls": {
+            "48x48": "https://secure.gravatar.com/avatar/9cf28fcfe5d4b45f656c4beb3123060b?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJS-2.png",
+            "24x24": "https://secure.gravatar.com/avatar/9cf28fcfe5d4b45f656c4beb3123060b?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJS-2.png",
+            "16x16": "https://secure.gravatar.com/avatar/9cf28fcfe5d4b45f656c4beb3123060b?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJS-2.png",
+            "32x32": "https://secure.gravatar.com/avatar/9cf28fcfe5d4b45f656c4beb3123060b?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJS-2.png"
+        },
+        "displayName": "Jula Sueakanong",
+        "active": true,
+        "locale": "th"
+    },
+    {
+        "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/user?accountId=712020:e0c1f4d1-f728-4fa1-aec0-5d3b4ecff8ba",
+        "accountId": "712020:e0c1f4d1-f728-4fa1-aec0-5d3b4ecff8ba",
+        "accountType": "atlassian",
+        "avatarUrls": {
+            "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:e0c1f4d1-f728-4fa1-aec0-5d3b4ecff8ba/8864e8ef-e032-4b9e-9d44-812a5200e9ae/48",
+            "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:e0c1f4d1-f728-4fa1-aec0-5d3b4ecff8ba/8864e8ef-e032-4b9e-9d44-812a5200e9ae/24",
+            "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:e0c1f4d1-f728-4fa1-aec0-5d3b4ecff8ba/8864e8ef-e032-4b9e-9d44-812a5200e9ae/16",
+            "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:e0c1f4d1-f728-4fa1-aec0-5d3b4ecff8ba/8864e8ef-e032-4b9e-9d44-812a5200e9ae/32"
+        },
+        "displayName": "SAMART KUMNATE",
+        "active": true,
+        "locale": "en_US"
+    },
+    {
+        "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/user?accountId=712020:54a8bb18-b914-43f4-a05a-23e6065ff705",
+        "accountId": "712020:54a8bb18-b914-43f4-a05a-23e6065ff705",
+        "accountType": "atlassian",
+        "avatarUrls": {
+            "48x48": "https://secure.gravatar.com/avatar/bb375a4b253a6562cc4b1b96df9b1808?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FF-5.png",
+            "24x24": "https://secure.gravatar.com/avatar/bb375a4b253a6562cc4b1b96df9b1808?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FF-5.png",
+            "16x16": "https://secure.gravatar.com/avatar/bb375a4b253a6562cc4b1b96df9b1808?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FF-5.png",
+            "32x32": "https://secure.gravatar.com/avatar/bb375a4b253a6562cc4b1b96df9b1808?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FF-5.png"
+        },
+        "displayName": "Fab",
+        "active": true,
+        "locale": "en_US"
+    },
+    {
+        "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/user?accountId=712020:674ce7a8-0716-47e9-bebf-96ed12443771",
+        "accountId": "712020:674ce7a8-0716-47e9-bebf-96ed12443771",
+        "accountType": "atlassian",
+        "avatarUrls": {
+            "48x48": "https://secure.gravatar.com/avatar/f9e3654e8fae5d2a38f8154c84b9e238?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FT-3.png",
+            "24x24": "https://secure.gravatar.com/avatar/f9e3654e8fae5d2a38f8154c84b9e238?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FT-3.png",
+            "16x16": "https://secure.gravatar.com/avatar/f9e3654e8fae5d2a38f8154c84b9e238?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FT-3.png",
+            "32x32": "https://secure.gravatar.com/avatar/f9e3654e8fae5d2a38f8154c84b9e238?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FT-3.png"
+        },
+        "displayName": "Tassanee",
+        "active": true,
+        "locale": "en_US"
+    },
+    {
+        "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/user?accountId=70121:4047fe12-c758-477b-a1c5-aaf5d944fe5a",
+        "accountId": "70121:4047fe12-c758-477b-a1c5-aaf5d944fe5a",
+        "accountType": "atlassian",
+        "avatarUrls": {
+            "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/70121:4047fe12-c758-477b-a1c5-aaf5d944fe5a/2839db4d-9d9b-4894-9a22-267920b32587/48",
+            "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/70121:4047fe12-c758-477b-a1c5-aaf5d944fe5a/2839db4d-9d9b-4894-9a22-267920b32587/24",
+            "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/70121:4047fe12-c758-477b-a1c5-aaf5d944fe5a/2839db4d-9d9b-4894-9a22-267920b32587/16",
+            "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/70121:4047fe12-c758-477b-a1c5-aaf5d944fe5a/2839db4d-9d9b-4894-9a22-267920b32587/32"
+        },
+        "displayName": "Nattavadee Kantamart",
+        "active": true,
+        "timeZone": "Asia/Bangkok",
+        "locale": "en_US"
+    },
+    {
+        "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/user?accountId=712020:af4fd845-587d-474a-b24a-45ca7878cdab",
+        "accountId": "712020:af4fd845-587d-474a-b24a-45ca7878cdab",
+        "accountType": "atlassian",
+        "avatarUrls": {
+            "48x48": "https://secure.gravatar.com/avatar/a8c43984a231f61f42c5bd75bde78910?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FYT-1.png",
+            "24x24": "https://secure.gravatar.com/avatar/a8c43984a231f61f42c5bd75bde78910?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FYT-1.png",
+            "16x16": "https://secure.gravatar.com/avatar/a8c43984a231f61f42c5bd75bde78910?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FYT-1.png",
+            "32x32": "https://secure.gravatar.com/avatar/a8c43984a231f61f42c5bd75bde78910?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FYT-1.png"
+        },
+        "displayName": "Yanisa Thueanchamnan",
+        "active": true,
+        "locale": "en_US"
+    },
+    {
+        "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/user?accountId=712020:996819f5-201b-481d-add8-5217d8fa3e47",
+        "accountId": "712020:996819f5-201b-481d-add8-5217d8fa3e47",
+        "accountType": "atlassian",
+        "avatarUrls": {
+            "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:996819f5-201b-481d-add8-5217d8fa3e47/c8cb1f60-ecc3-4a4a-a2f7-6f0faf89760d/48",
+            "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:996819f5-201b-481d-add8-5217d8fa3e47/c8cb1f60-ecc3-4a4a-a2f7-6f0faf89760d/24",
+            "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:996819f5-201b-481d-add8-5217d8fa3e47/c8cb1f60-ecc3-4a4a-a2f7-6f0faf89760d/16",
+            "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:996819f5-201b-481d-add8-5217d8fa3e47/c8cb1f60-ecc3-4a4a-a2f7-6f0faf89760d/32"
+        },
+        "displayName": "Mild Anchalee",
+        "active": true,
+        "locale": "en_US"
+    },
+    {
+        "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/user?accountId=712020:217cd4d5-dcd9-4845-9658-fb457899fa1e",
+        "accountId": "712020:217cd4d5-dcd9-4845-9658-fb457899fa1e",
+        "accountType": "atlassian",
+        "avatarUrls": {
+            "48x48": "https://secure.gravatar.com/avatar/290fe9bbaa17f7d055b74c5e1ac5e0c9?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FT-1.png",
+            "24x24": "https://secure.gravatar.com/avatar/290fe9bbaa17f7d055b74c5e1ac5e0c9?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FT-1.png",
+            "16x16": "https://secure.gravatar.com/avatar/290fe9bbaa17f7d055b74c5e1ac5e0c9?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FT-1.png",
+            "32x32": "https://secure.gravatar.com/avatar/290fe9bbaa17f7d055b74c5e1ac5e0c9?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FT-1.png"
+        },
+        "displayName": "Thime",
+        "active": true,
+        "locale": "th"
+    },
+    {
+        "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/user?accountId=712020:1bea929a-8e61-460b-b3c8-b62d117886b4",
+        "accountId": "712020:1bea929a-8e61-460b-b3c8-b62d117886b4",
+        "accountType": "atlassian",
+        "avatarUrls": {
+            "48x48": "https://secure.gravatar.com/avatar/12b111d2040e20948e8dcf08adfd7224?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Fdefault-avatar-6.png",
+            "24x24": "https://secure.gravatar.com/avatar/12b111d2040e20948e8dcf08adfd7224?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Fdefault-avatar-6.png",
+            "16x16": "https://secure.gravatar.com/avatar/12b111d2040e20948e8dcf08adfd7224?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Fdefault-avatar-6.png",
+            "32x32": "https://secure.gravatar.com/avatar/12b111d2040e20948e8dcf08adfd7224?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Fdefault-avatar-6.png"
+        },
+        "displayName": "รวินทร์กาญจน์ เรือนใจหลัก",
+        "active": true,
+        "locale": "en_US"
+    },
+    {
+        "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/user?accountId=712020:d6a7edb1-9930-4ff6-9876-863a25f68520",
+        "accountId": "712020:d6a7edb1-9930-4ff6-9876-863a25f68520",
+        "accountType": "atlassian",
+        "avatarUrls": {
+            "48x48": "https://secure.gravatar.com/avatar/4876725c0e3b4358e125e371268d354c?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FS-3.png",
+            "24x24": "https://secure.gravatar.com/avatar/4876725c0e3b4358e125e371268d354c?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FS-3.png",
+            "16x16": "https://secure.gravatar.com/avatar/4876725c0e3b4358e125e371268d354c?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FS-3.png",
+            "32x32": "https://secure.gravatar.com/avatar/4876725c0e3b4358e125e371268d354c?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FS-3.png"
+        },
+        "displayName": "samart.kumnate",
+        "active": false
+    },
+    {
+        "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/user?accountId=712020:afe7f5a6-35b5-4cc1-a530-5125127e7421",
+        "accountId": "712020:afe7f5a6-35b5-4cc1-a530-5125127e7421",
+        "accountType": "atlassian",
+        "avatarUrls": {
+            "48x48": "https://secure.gravatar.com/avatar/21907fc577a4a04a55daf7afaa74c3e0?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FST-2.png",
+            "24x24": "https://secure.gravatar.com/avatar/21907fc577a4a04a55daf7afaa74c3e0?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FST-2.png",
+            "16x16": "https://secure.gravatar.com/avatar/21907fc577a4a04a55daf7afaa74c3e0?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FST-2.png",
+            "32x32": "https://secure.gravatar.com/avatar/21907fc577a4a04a55daf7afaa74c3e0?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FST-2.png"
+        },
+        "displayName": "Surawut Tiammit",
+        "active": true,
+        "locale": "th"
+    },
+    {
+        "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/user?accountId=634e19f8b0b6ef035646e523",
+        "accountId": "634e19f8b0b6ef035646e523",
+        "accountType": "atlassian",
+        "avatarUrls": {
+            "48x48": "https://secure.gravatar.com/avatar/8a5ef515336bd913f2df6fef73d62228?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FP-3.png",
+            "24x24": "https://secure.gravatar.com/avatar/8a5ef515336bd913f2df6fef73d62228?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FP-3.png",
+            "16x16": "https://secure.gravatar.com/avatar/8a5ef515336bd913f2df6fef73d62228?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FP-3.png",
+            "32x32": "https://secure.gravatar.com/avatar/8a5ef515336bd913f2df6fef73d62228?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FP-3.png"
+        },
+        "displayName": "Patcharin",
+        "active": true,
+        "locale": "en_US"
+    },
+    {
+        "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/user?accountId=712020:bba473fa-a6f0-4ea9-89da-d8cf72ecd38f",
+        "accountId": "712020:bba473fa-a6f0-4ea9-89da-d8cf72ecd38f",
+        "accountType": "atlassian",
+        "avatarUrls": {
+            "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:bba473fa-a6f0-4ea9-89da-d8cf72ecd38f/ec60705b-d2d0-4d25-9e27-f05651a7cfb2/48",
+            "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:bba473fa-a6f0-4ea9-89da-d8cf72ecd38f/ec60705b-d2d0-4d25-9e27-f05651a7cfb2/24",
+            "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:bba473fa-a6f0-4ea9-89da-d8cf72ecd38f/ec60705b-d2d0-4d25-9e27-f05651a7cfb2/16",
+            "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:bba473fa-a6f0-4ea9-89da-d8cf72ecd38f/ec60705b-d2d0-4d25-9e27-f05651a7cfb2/32"
+        },
+        "displayName": "Aoranun Rojsatitpong",
+        "active": true,
+        "locale": "en_US"
+    },
+    {
+        "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/user?accountId=712020:7b6bc774-9a43-45ba-a0b5-af2b93ff1463",
+        "accountId": "712020:7b6bc774-9a43-45ba-a0b5-af2b93ff1463",
+        "accountType": "atlassian",
+        "avatarUrls": {
+            "48x48": "https://secure.gravatar.com/avatar/15a618ee67b6849819832f46fe08ee4c?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FA-4.png",
+            "24x24": "https://secure.gravatar.com/avatar/15a618ee67b6849819832f46fe08ee4c?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FA-4.png",
+            "16x16": "https://secure.gravatar.com/avatar/15a618ee67b6849819832f46fe08ee4c?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FA-4.png",
+            "32x32": "https://secure.gravatar.com/avatar/15a618ee67b6849819832f46fe08ee4c?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FA-4.png"
+        },
+        "displayName": "aoranun.rojsatitpong",
+        "active": false
     }
 ]

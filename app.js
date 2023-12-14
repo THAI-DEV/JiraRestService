@@ -1,29 +1,31 @@
 var _ = require('lodash');
-const fs = require('fs');
+var util = require('./util.js');
 
 main();
 
 async function main() {
-  console.log('-------------');
+  console.log('---- Begin ----');
 
-  await readJsonFile().then((data) => {
-    resultData = _.filter(data, function (data) {
-      return data.accountType === 'atlassian';
-    });
-    console.log(resultData);
+  const inputData = await util.readJsonFile('./data/data_user.json').then((data) => {
+    return data;
   });
 
-  console.log('=============');
+  let resultData = filterData(inputData);
+
+  resultData = util.pickField(resultData, ['displayName', 'accountId']);
+
+  console.log(resultData);
+  console.log(resultData.length, inputData.length);
+
+  console.log('----  End  ----');
 }
 
 // //   console.log(jsonData);
 
-async function readJsonFile() {
-  try {
-    const data = await fs.promises.readFile('./data/data_user.json', 'utf8');
-    return JSON.parse(data);
-  } catch (err) {
-    console.error(err);
-    return null;
-  }
+function filterData(inputData) {
+  let resultData = _.filter(inputData, function (dataObj) {
+    return dataObj.accountType === 'atlassian' && dataObj.active;
+  });
+
+  return resultData;
 }

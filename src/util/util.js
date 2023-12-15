@@ -47,7 +47,7 @@ function calRowPerPage(totalRows, rowsPerPage) {
   for (let index = 0; index < totalPages; index++) {
     const pageNo = index + 1;
     let stopNo = startNo + rowsPerPage - 1;
-    if (stopNo > totalRows) {
+    if (stopNo >= totalRows) {
       stopNo = totalRows - 1;
     }
 

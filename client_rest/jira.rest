@@ -45,9 +45,9 @@ Authorization: {{credential}}
 Content-Type: application/json
 
 { 
-   "jql": "assignee in (712020:e0c1f4d1-f728-4fa1-aec0-5d3b4ecff8ba) AND project = SENSE-TEAM_IT AND  updated >= 2023-11-01 AND updated <= 2023-12-31 order by updated DESC",
-  # "startAt": 0,
-  "maxResults":0
+  
+  "jql": "assignee in (712020:e0c1f4d1-f728-4fa1-aec0-5d3b4ecff8ba) AND project = SENSE-TEAM_IT AND  updated >= 2023-11-01 AND updated <= 2023-12-31 order by updated DESC",
+  "maxResults": 0
 }
 
 

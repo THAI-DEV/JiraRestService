@@ -1,6 +1,9 @@
 RESTAPI Doc
     https://developer.atlassian.com/cloud/jira/platform/rest/v3/intro/#about
 
+Express
+    https://expressjs.com/en/api.html#express.json
+
 Run Rest Service
     node .\src\app_rest_service\app.js
     

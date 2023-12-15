@@ -11,9 +11,20 @@ GET {{baseUrl}}/projectAll
 ###
 GET {{baseUrl}}/issueAll
 
-###
+### 
 GET {{baseUrl}}/issueTotal
 
+ 
+###                                                         
+ POST {{baseUrl}}/test 
+Content-Type: application/json
+
+{
+    # "assignee" : "712020:e0c1f4d1-f728-4fa1-aec0-5d3b4ecff8ba",
+    # "project" : "SENSE-TEAM_IT",
+    "beginDate": "2023-11-01",
+    "endDate": "2023-12-31"
+}
 
 
 

@@ -25,6 +25,14 @@ async function issueTotalHandler(req, res) {
   res.end(JSON.stringify(resultData));
 }
 
+async function testHandler(req, res) {
+  let xx = await restSrv.postTest(req.body);
+
+  //TODO xxx
+  res.setHeader('Content-Type', 'application/json');
+  res.end(JSON.stringify(xx));
+}
+
 function mapDataIssueAll(data) {
   let resultData = [];
 
@@ -55,4 +63,4 @@ function mapDataIssueTotal(data) {
   return resultData;
 }
 
-module.exports = { issueAllHandler, issueTotalHandler };
+module.exports = { issueAllHandler, issueTotalHandler, testHandler };

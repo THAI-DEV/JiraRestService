@@ -35,4 +35,29 @@ function writeJsonFile(fileSource, data) {
   }
 }
 
-module.exports = { readJsonFile, pickField, writeJsonFile };
+function calRowPerPage(totalRows, rowsPerPage) {
+  const totalPages = Math.ceil(totalRows / rowsPerPage);
+
+  //   console.log(`Number of rows per page: ${rowsPerPage}`);
+  //   console.log(`Total number of pages: ${totalPages}`);
+  //   console.log();
+
+  let startNo = 0;
+  let result = [];
+  for (let index = 0; index < totalPages; index++) {
+    const pageNo = index + 1;
+    let stopNo = startNo + rowsPerPage - 1;
+    if (stopNo > totalRows) {
+      stopNo = totalRows - 1;
+    }
+
+    result.push(pageNo + ',' + startNo + ',' + stopNo);
+    // console.log(`Page ${pageNo}: ${startNo} - ${stopNo}`);
+
+    startNo = startNo + rowsPerPage;
+  }
+
+  return result;
+}
+
+module.exports = { readJsonFile, pickField, writeJsonFile, calRowPerPage };

@@ -10,15 +10,18 @@ main();
 async function main() {
   console.log('---- Begin ----');
 
-  //* Read data from File
-  // const inputData = await util.readJsonFile('./data/data_user.json').then((data) => {
-  //   return data;
-  // });
-
-  //* Read data from API
-  const inputData = await restSrv.getUserAll().then((data) => {
-    return data;
-  });
+  let inputData;
+  if (process.env.IS_USE_MOCK_DATA === 'YES') {
+    //* Read data from File
+    inputData = await util.readJsonFile('./data/data_user.json').then((data) => {
+      return data;
+    });
+  } else {
+    //* Read data from API
+    inputData = await restSrv.getUserAll().then((data) => {
+      return data;
+    });
+  }
 
   let resultData = filterData(inputData);
 
@@ -33,8 +36,6 @@ async function main() {
 
   console.log('----  End  ----');
 }
-
-// //   console.log(jsonData);
 
 function filterData(inputData) {
   let resultData = _.filter(inputData, function (dataObj) {

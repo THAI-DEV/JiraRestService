@@ -1,0 +1,399 @@
+{
+    "expand": "schema,names",
+    "startAt": 0,
+    "maxResults": 100,
+    "total": 17,
+    "issues": [
+        {
+            "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+            "id": "11663",
+            "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/issue/11663",
+            "key": "STI-17",
+            "fields": {
+                "updated": "2023-12-13T21:09:32.186+0700",
+                "status": {
+                    "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/status/10147",
+                    "description": "",
+                    "iconUrl": "https://jira-sense-info-tech.atlassian.net/",
+                    "name": "To Do",
+                    "id": "10147",
+                    "statusCategory": {
+                        "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/statuscategory/2",
+                        "id": 2,
+                        "key": "new",
+                        "colorName": "blue-gray",
+                        "name": "To Do"
+                    }
+                }
+            }
+        },
+        {
+            "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+            "id": "11662",
+            "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/issue/11662",
+            "key": "STI-16",
+            "fields": {
+                "updated": "2023-12-13T21:09:20.503+0700",
+                "status": {
+                    "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/status/10147",
+                    "description": "",
+                    "iconUrl": "https://jira-sense-info-tech.atlassian.net/",
+                    "name": "To Do",
+                    "id": "10147",
+                    "statusCategory": {
+                        "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/statuscategory/2",
+                        "id": 2,
+                        "key": "new",
+                        "colorName": "blue-gray",
+                        "name": "To Do"
+                    }
+                }
+            }
+        },
+        {
+            "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+            "id": "11661",
+            "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/issue/11661",
+            "key": "STI-15",
+            "fields": {
+                "updated": "2023-12-13T21:09:00.102+0700",
+                "status": {
+                    "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/status/10147",
+                    "description": "",
+                    "iconUrl": "https://jira-sense-info-tech.atlassian.net/",
+                    "name": "To Do",
+                    "id": "10147",
+                    "statusCategory": {
+                        "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/statuscategory/2",
+                        "id": 2,
+                        "key": "new",
+                        "colorName": "blue-gray",
+                        "name": "To Do"
+                    }
+                }
+            }
+        },
+        {
+            "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+            "id": "11660",
+            "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/issue/11660",
+            "key": "STI-14",
+            "fields": {
+                "updated": "2023-12-13T21:08:50.128+0700",
+                "status": {
+                    "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/status/10147",
+                    "description": "",
+                    "iconUrl": "https://jira-sense-info-tech.atlassian.net/",
+                    "name": "To Do",
+                    "id": "10147",
+                    "statusCategory": {
+                        "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/statuscategory/2",
+                        "id": 2,
+                        "key": "new",
+                        "colorName": "blue-gray",
+                        "name": "To Do"
+                    }
+                }
+            }
+        },
+        {
+            "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+            "id": "11659",
+            "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/issue/11659",
+            "key": "STI-13",
+            "fields": {
+                "updated": "2023-12-15T10:40:33.863+0700",
+                "status": {
+                    "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/status/10149",
+                    "description": "",
+                    "iconUrl": "https://jira-sense-info-tech.atlassian.net/",
+                    "name": "Done",
+                    "id": "10149",
+                    "statusCategory": {
+                        "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/statuscategory/3",
+                        "id": 3,
+                        "key": "done",
+                        "colorName": "green",
+                        "name": "Done"
+                    }
+                }
+            }
+        },
+        {
+            "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+            "id": "11658",
+            "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/issue/11658",
+            "key": "STI-12",
+            "fields": {
+                "updated": "2023-12-13T21:08:00.481+0700",
+                "status": {
+                    "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/status/10147",
+                    "description": "",
+                    "iconUrl": "https://jira-sense-info-tech.atlassian.net/",
+                    "name": "To Do",
+                    "id": "10147",
+                    "statusCategory": {
+                        "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/statuscategory/2",
+                        "id": 2,
+                        "key": "new",
+                        "colorName": "blue-gray",
+                        "name": "To Do"
+                    }
+                }
+            }
+        },
+        {
+            "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+            "id": "11657",
+            "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/issue/11657",
+            "key": "STI-11",
+            "fields": {
+                "updated": "2023-12-14T08:47:43.885+0700",
+                "status": {
+                    "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/status/10148",
+                    "description": "This issue is being actively worked on at the moment by the assignee.",
+                    "iconUrl": "https://jira-sense-info-tech.atlassian.net/",
+                    "name": "In Progress",
+                    "id": "10148",
+                    "statusCategory": {
+                        "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/statuscategory/4",
+                        "id": 4,
+                        "key": "indeterminate",
+                        "colorName": "yellow",
+                        "name": "In Progress"
+                    }
+                }
+            }
+        },
+        {
+            "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+            "id": "11637",
+            "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/issue/11637",
+            "key": "STI-10",
+            "fields": {
+                "updated": "2023-12-13T17:20:49.616+0700",
+                "status": {
+                    "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/status/10149",
+                    "description": "",
+                    "iconUrl": "https://jira-sense-info-tech.atlassian.net/",
+                    "name": "Done",
+                    "id": "10149",
+                    "statusCategory": {
+                        "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/statuscategory/3",
+                        "id": 3,
+                        "key": "done",
+                        "colorName": "green",
+                        "name": "Done"
+                    }
+                }
+            }
+        },
+        {
+            "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+            "id": "11636",
+            "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/issue/11636",
+            "key": "STI-9",
+            "fields": {
+                "updated": "2023-12-13T17:20:47.830+0700",
+                "status": {
+                    "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/status/10149",
+                    "description": "",
+                    "iconUrl": "https://jira-sense-info-tech.atlassian.net/",
+                    "name": "Done",
+                    "id": "10149",
+                    "statusCategory": {
+                        "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/statuscategory/3",
+                        "id": 3,
+                        "key": "done",
+                        "colorName": "green",
+                        "name": "Done"
+                    }
+                }
+            }
+        },
+        {
+            "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+            "id": "11572",
+            "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/issue/11572",
+            "key": "STI-8",
+            "fields": {
+                "updated": "2023-12-13T09:09:40.670+0700",
+                "status": {
+                    "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/status/10147",
+                    "description": "",
+                    "iconUrl": "https://jira-sense-info-tech.atlassian.net/",
+                    "name": "To Do",
+                    "id": "10147",
+                    "statusCategory": {
+                        "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/statuscategory/2",
+                        "id": 2,
+                        "key": "new",
+                        "colorName": "blue-gray",
+                        "name": "To Do"
+                    }
+                }
+            }
+        },
+        {
+            "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+            "id": "11562",
+            "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/issue/11562",
+            "key": "STI-7",
+            "fields": {
+                "updated": "2023-12-12T15:39:21.314+0700",
+                "status": {
+                    "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/status/10149",
+                    "description": "",
+                    "iconUrl": "https://jira-sense-info-tech.atlassian.net/",
+                    "name": "Done",
+                    "id": "10149",
+                    "statusCategory": {
+                        "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/statuscategory/3",
+                        "id": 3,
+                        "key": "done",
+                        "colorName": "green",
+                        "name": "Done"
+                    }
+                }
+            }
+        },
+        {
+            "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+            "id": "11551",
+            "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/issue/11551",
+            "key": "STI-6",
+            "fields": {
+                "updated": "2023-12-12T15:39:28.747+0700",
+                "status": {
+                    "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/status/10149",
+                    "description": "",
+                    "iconUrl": "https://jira-sense-info-tech.atlassian.net/",
+                    "name": "Done",
+                    "id": "10149",
+                    "statusCategory": {
+                        "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/statuscategory/3",
+                        "id": 3,
+                        "key": "done",
+                        "colorName": "green",
+                        "name": "Done"
+                    }
+                }
+            }
+        },
+        {
+            "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+            "id": "11408",
+            "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/issue/11408",
+            "key": "STI-5",
+            "fields": {
+                "updated": "2023-12-12T15:37:27.802+0700",
+                "status": {
+                    "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/status/10149",
+                    "description": "",
+                    "iconUrl": "https://jira-sense-info-tech.atlassian.net/",
+                    "name": "Done",
+                    "id": "10149",
+                    "statusCategory": {
+                        "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/statuscategory/3",
+                        "id": 3,
+                        "key": "done",
+                        "colorName": "green",
+                        "name": "Done"
+                    }
+                }
+            }
+        },
+        {
+            "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+            "id": "11407",
+            "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/issue/11407",
+            "key": "STI-4",
+            "fields": {
+                "updated": "2023-12-12T15:48:22.076+0700",
+                "status": {
+                    "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/status/10149",
+                    "description": "",
+                    "iconUrl": "https://jira-sense-info-tech.atlassian.net/",
+                    "name": "Done",
+                    "id": "10149",
+                    "statusCategory": {
+                        "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/statuscategory/3",
+                        "id": 3,
+                        "key": "done",
+                        "colorName": "green",
+                        "name": "Done"
+                    }
+                }
+            }
+        },
+        {
+            "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+            "id": "11406",
+            "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/issue/11406",
+            "key": "STI-3",
+            "fields": {
+                "updated": "2023-12-12T15:37:08.187+0700",
+                "status": {
+                    "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/status/10149",
+                    "description": "",
+                    "iconUrl": "https://jira-sense-info-tech.atlassian.net/",
+                    "name": "Done",
+                    "id": "10149",
+                    "statusCategory": {
+                        "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/statuscategory/3",
+                        "id": 3,
+                        "key": "done",
+                        "colorName": "green",
+                        "name": "Done"
+                    }
+                }
+            }
+        },
+        {
+            "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+            "id": "11405",
+            "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/issue/11405",
+            "key": "STI-2",
+            "fields": {
+                "updated": "2023-12-12T15:37:05.998+0700",
+                "status": {
+                    "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/status/10149",
+                    "description": "",
+                    "iconUrl": "https://jira-sense-info-tech.atlassian.net/",
+                    "name": "Done",
+                    "id": "10149",
+                    "statusCategory": {
+                        "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/statuscategory/3",
+                        "id": 3,
+                        "key": "done",
+                        "colorName": "green",
+                        "name": "Done"
+                    }
+                }
+            }
+        },
+        {
+            "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+            "id": "11404",
+            "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/issue/11404",
+            "key": "STI-1",
+            "fields": {
+                "updated": "2023-12-12T15:36:58.129+0700",
+                "status": {
+                    "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/status/10149",
+                    "description": "",
+                    "iconUrl": "https://jira-sense-info-tech.atlassian.net/",
+                    "name": "Done",
+                    "id": "10149",
+                    "statusCategory": {
+                        "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/statuscategory/3",
+                        "id": 3,
+                        "key": "done",
+                        "colorName": "green",
+                        "name": "Done"
+                    }
+                }
+            }
+        }
+    ]
+}

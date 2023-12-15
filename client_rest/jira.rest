@@ -20,3 +20,37 @@ Authorization: {{credential}}
 ### Get Project All
 GET {{baseUrl}}/project?startAt=0&maxResults=0
 Authorization: {{credential}}
+
+
+###
+POST {{baseUrl}}/search
+Authorization: {{credential}}
+Content-Type: application/json
+
+{
+   "fields": [
+    "status",
+    "updated"
+  ],
+  "fieldsByKeys": false,
+  "jql": "updated >= 2023-11-01 AND updated <= 2023-12-31 order by created DESC",
+  "startAt": 1015,
+  "maxResults":7
+}
+
+
+###
+POST {{baseUrl}}/search
+Authorization: {{credential}}
+Content-Type: application/json
+
+{
+   "fields": [
+    "status",
+    "updated"
+  ],
+  "fieldsByKeys": false,
+  "jql": "project = SENSE-TEAM_IT AND  updated >= 2023-11-01 AND updated <= 2023-12-31 order by created DESC",
+  "startAt": 0,
+  "maxResults":100
+}

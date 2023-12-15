@@ -18,7 +18,7 @@ async function main() {
     });
   } else {
     //* Read data from API
-    inputData = await restSrv.getProjectAll().then((data) => {
+    inputData = await restSrv.getIssueAll().then((data) => {
       return data;
     });
   }
@@ -34,7 +34,7 @@ async function main() {
   // console.log(resultData);
   displayResultData(resultData);
 
-  console.log(inputData.length);
+  console.log(resultData.length);
 
   // let resultData = filterData(inputData);
 
@@ -59,7 +59,7 @@ function filterData(inputData) {
 }
 
 function displayInputData(data) {
-  data.forEach((item, index) => {
+  data.issues.forEach((item, index) => {
     console.log('------------------------------------');
     console.log('Row : ' + (index + 1));
     console.log('Key : ' + item.key);
@@ -96,7 +96,7 @@ function displayResultData(data) {
 function mapData(data) {
   let resultData = [];
 
-  data.forEach((item, index) => {
+  data.issues.forEach((item, index) => {
     let resultObj = {
       key: item.key,
       summary: item.fields.summary,

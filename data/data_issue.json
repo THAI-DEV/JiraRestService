@@ -2,14 +2,192 @@
     "expand": "schema,names",
     "startAt": 0,
     "maxResults": 100,
-    "total": 17,
+    "total": 19,
     "issues": [
+        {
+            "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+            "id": "11768",
+            "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/issue/11768",
+            "key": "STI-19",
+            "fields": {
+                "summary": "Develop map service for WLMAPRO mobile (M03)",
+                "created": "2023-12-15T16:14:30.985+0700",
+                "project": {
+                    "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/project/10044",
+                    "id": "10044",
+                    "key": "STI",
+                    "name": "SENSE-TEAM_IT",
+                    "projectTypeKey": "software",
+                    "simplified": true,
+                    "avatarUrls": {
+                        "48x48": "https://jira-sense-info-tech.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10413",
+                        "24x24": "https://jira-sense-info-tech.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10413?size=small",
+                        "16x16": "https://jira-sense-info-tech.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10413?size=xsmall",
+                        "32x32": "https://jira-sense-info-tech.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10413?size=medium"
+                    }
+                },
+                "reporter": {
+                    "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/user?accountId=712020%3Ae0c1f4d1-f728-4fa1-aec0-5d3b4ecff8ba",
+                    "accountId": "712020:e0c1f4d1-f728-4fa1-aec0-5d3b4ecff8ba",
+                    "avatarUrls": {
+                        "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:e0c1f4d1-f728-4fa1-aec0-5d3b4ecff8ba/8864e8ef-e032-4b9e-9d44-812a5200e9ae/48",
+                        "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:e0c1f4d1-f728-4fa1-aec0-5d3b4ecff8ba/8864e8ef-e032-4b9e-9d44-812a5200e9ae/24",
+                        "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:e0c1f4d1-f728-4fa1-aec0-5d3b4ecff8ba/8864e8ef-e032-4b9e-9d44-812a5200e9ae/16",
+                        "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:e0c1f4d1-f728-4fa1-aec0-5d3b4ecff8ba/8864e8ef-e032-4b9e-9d44-812a5200e9ae/32"
+                    },
+                    "displayName": "SAMART KUMNATE",
+                    "active": true,
+                    "timeZone": "Asia/Bangkok",
+                    "accountType": "atlassian"
+                },
+                "assignee": {
+                    "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/user?accountId=712020%3Ae0c1f4d1-f728-4fa1-aec0-5d3b4ecff8ba",
+                    "accountId": "712020:e0c1f4d1-f728-4fa1-aec0-5d3b4ecff8ba",
+                    "avatarUrls": {
+                        "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:e0c1f4d1-f728-4fa1-aec0-5d3b4ecff8ba/8864e8ef-e032-4b9e-9d44-812a5200e9ae/48",
+                        "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:e0c1f4d1-f728-4fa1-aec0-5d3b4ecff8ba/8864e8ef-e032-4b9e-9d44-812a5200e9ae/24",
+                        "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:e0c1f4d1-f728-4fa1-aec0-5d3b4ecff8ba/8864e8ef-e032-4b9e-9d44-812a5200e9ae/16",
+                        "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:e0c1f4d1-f728-4fa1-aec0-5d3b4ecff8ba/8864e8ef-e032-4b9e-9d44-812a5200e9ae/32"
+                    },
+                    "displayName": "SAMART KUMNATE",
+                    "active": true,
+                    "timeZone": "Asia/Bangkok",
+                    "accountType": "atlassian"
+                },
+                "updated": "2023-12-15T16:16:47.890+0700",
+                "status": {
+                    "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/status/10148",
+                    "description": "This issue is being actively worked on at the moment by the assignee.",
+                    "iconUrl": "https://jira-sense-info-tech.atlassian.net/",
+                    "name": "In Progress",
+                    "id": "10148",
+                    "statusCategory": {
+                        "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/statuscategory/4",
+                        "id": 4,
+                        "key": "indeterminate",
+                        "colorName": "yellow",
+                        "name": "In Progress"
+                    }
+                }
+            }
+        },
+        {
+            "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+            "id": "11766",
+            "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/issue/11766",
+            "key": "STI-18",
+            "fields": {
+                "summary": "Fix layers hide all / show all at DB",
+                "created": "2023-12-15T16:13:00.751+0700",
+                "project": {
+                    "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/project/10044",
+                    "id": "10044",
+                    "key": "STI",
+                    "name": "SENSE-TEAM_IT",
+                    "projectTypeKey": "software",
+                    "simplified": true,
+                    "avatarUrls": {
+                        "48x48": "https://jira-sense-info-tech.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10413",
+                        "24x24": "https://jira-sense-info-tech.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10413?size=small",
+                        "16x16": "https://jira-sense-info-tech.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10413?size=xsmall",
+                        "32x32": "https://jira-sense-info-tech.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10413?size=medium"
+                    }
+                },
+                "reporter": {
+                    "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/user?accountId=712020%3Ae0c1f4d1-f728-4fa1-aec0-5d3b4ecff8ba",
+                    "accountId": "712020:e0c1f4d1-f728-4fa1-aec0-5d3b4ecff8ba",
+                    "avatarUrls": {
+                        "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:e0c1f4d1-f728-4fa1-aec0-5d3b4ecff8ba/8864e8ef-e032-4b9e-9d44-812a5200e9ae/48",
+                        "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:e0c1f4d1-f728-4fa1-aec0-5d3b4ecff8ba/8864e8ef-e032-4b9e-9d44-812a5200e9ae/24",
+                        "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:e0c1f4d1-f728-4fa1-aec0-5d3b4ecff8ba/8864e8ef-e032-4b9e-9d44-812a5200e9ae/16",
+                        "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:e0c1f4d1-f728-4fa1-aec0-5d3b4ecff8ba/8864e8ef-e032-4b9e-9d44-812a5200e9ae/32"
+                    },
+                    "displayName": "SAMART KUMNATE",
+                    "active": true,
+                    "timeZone": "Asia/Bangkok",
+                    "accountType": "atlassian"
+                },
+                "assignee": {
+                    "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/user?accountId=712020%3Ae0c1f4d1-f728-4fa1-aec0-5d3b4ecff8ba",
+                    "accountId": "712020:e0c1f4d1-f728-4fa1-aec0-5d3b4ecff8ba",
+                    "avatarUrls": {
+                        "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:e0c1f4d1-f728-4fa1-aec0-5d3b4ecff8ba/8864e8ef-e032-4b9e-9d44-812a5200e9ae/48",
+                        "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:e0c1f4d1-f728-4fa1-aec0-5d3b4ecff8ba/8864e8ef-e032-4b9e-9d44-812a5200e9ae/24",
+                        "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:e0c1f4d1-f728-4fa1-aec0-5d3b4ecff8ba/8864e8ef-e032-4b9e-9d44-812a5200e9ae/16",
+                        "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:e0c1f4d1-f728-4fa1-aec0-5d3b4ecff8ba/8864e8ef-e032-4b9e-9d44-812a5200e9ae/32"
+                    },
+                    "displayName": "SAMART KUMNATE",
+                    "active": true,
+                    "timeZone": "Asia/Bangkok",
+                    "accountType": "atlassian"
+                },
+                "updated": "2023-12-15T16:16:39.006+0700",
+                "status": {
+                    "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/status/10149",
+                    "description": "",
+                    "iconUrl": "https://jira-sense-info-tech.atlassian.net/",
+                    "name": "Done",
+                    "id": "10149",
+                    "statusCategory": {
+                        "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/statuscategory/3",
+                        "id": 3,
+                        "key": "done",
+                        "colorName": "green",
+                        "name": "Done"
+                    }
+                }
+            }
+        },
         {
             "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
             "id": "11663",
             "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/issue/11663",
             "key": "STI-17",
             "fields": {
+                "summary": "ทำเอกสารสอบ ISO",
+                "created": "2023-12-13T21:09:26.230+0700",
+                "project": {
+                    "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/project/10044",
+                    "id": "10044",
+                    "key": "STI",
+                    "name": "SENSE-TEAM_IT",
+                    "projectTypeKey": "software",
+                    "simplified": true,
+                    "avatarUrls": {
+                        "48x48": "https://jira-sense-info-tech.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10413",
+                        "24x24": "https://jira-sense-info-tech.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10413?size=small",
+                        "16x16": "https://jira-sense-info-tech.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10413?size=xsmall",
+                        "32x32": "https://jira-sense-info-tech.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10413?size=medium"
+                    }
+                },
+                "reporter": {
+                    "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/user?accountId=712020%3Aa0c6e1ff-ce16-4649-83fe-4d0a52cb11e9",
+                    "accountId": "712020:a0c6e1ff-ce16-4649-83fe-4d0a52cb11e9",
+                    "avatarUrls": {
+                        "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:a0c6e1ff-ce16-4649-83fe-4d0a52cb11e9/d5e27165-d9a6-4230-bace-dc1c43c26297/48",
+                        "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:a0c6e1ff-ce16-4649-83fe-4d0a52cb11e9/d5e27165-d9a6-4230-bace-dc1c43c26297/24",
+                        "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:a0c6e1ff-ce16-4649-83fe-4d0a52cb11e9/d5e27165-d9a6-4230-bace-dc1c43c26297/16",
+                        "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:a0c6e1ff-ce16-4649-83fe-4d0a52cb11e9/d5e27165-d9a6-4230-bace-dc1c43c26297/32"
+                    },
+                    "displayName": "Naroemon Pongprasert",
+                    "active": true,
+                    "timeZone": "Asia/Bangkok",
+                    "accountType": "atlassian"
+                },
+                "assignee": {
+                    "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/user?accountId=712020%3Ab4a3ebee-779c-491c-9f05-cb2a2d90505c",
+                    "accountId": "712020:b4a3ebee-779c-491c-9f05-cb2a2d90505c",
+                    "avatarUrls": {
+                        "48x48": "https://secure.gravatar.com/avatar/52a4177db772a7cef9d36a60f8ecf182?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FNC-5.png",
+                        "24x24": "https://secure.gravatar.com/avatar/52a4177db772a7cef9d36a60f8ecf182?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FNC-5.png",
+                        "16x16": "https://secure.gravatar.com/avatar/52a4177db772a7cef9d36a60f8ecf182?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FNC-5.png",
+                        "32x32": "https://secure.gravatar.com/avatar/52a4177db772a7cef9d36a60f8ecf182?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FNC-5.png"
+                    },
+                    "displayName": "Nattawut Chaowsoon",
+                    "active": true,
+                    "timeZone": "Asia/Bangkok",
+                    "accountType": "atlassian"
+                },
                 "updated": "2023-12-13T21:09:32.186+0700",
                 "status": {
                     "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/status/10147",
@@ -33,6 +211,50 @@
             "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/issue/11662",
             "key": "STI-16",
             "fields": {
+                "summary": "ทำเอกสารสอบ ISO",
+                "created": "2023-12-13T21:09:11.215+0700",
+                "project": {
+                    "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/project/10044",
+                    "id": "10044",
+                    "key": "STI",
+                    "name": "SENSE-TEAM_IT",
+                    "projectTypeKey": "software",
+                    "simplified": true,
+                    "avatarUrls": {
+                        "48x48": "https://jira-sense-info-tech.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10413",
+                        "24x24": "https://jira-sense-info-tech.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10413?size=small",
+                        "16x16": "https://jira-sense-info-tech.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10413?size=xsmall",
+                        "32x32": "https://jira-sense-info-tech.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10413?size=medium"
+                    }
+                },
+                "reporter": {
+                    "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/user?accountId=712020%3Aa0c6e1ff-ce16-4649-83fe-4d0a52cb11e9",
+                    "accountId": "712020:a0c6e1ff-ce16-4649-83fe-4d0a52cb11e9",
+                    "avatarUrls": {
+                        "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:a0c6e1ff-ce16-4649-83fe-4d0a52cb11e9/d5e27165-d9a6-4230-bace-dc1c43c26297/48",
+                        "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:a0c6e1ff-ce16-4649-83fe-4d0a52cb11e9/d5e27165-d9a6-4230-bace-dc1c43c26297/24",
+                        "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:a0c6e1ff-ce16-4649-83fe-4d0a52cb11e9/d5e27165-d9a6-4230-bace-dc1c43c26297/16",
+                        "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:a0c6e1ff-ce16-4649-83fe-4d0a52cb11e9/d5e27165-d9a6-4230-bace-dc1c43c26297/32"
+                    },
+                    "displayName": "Naroemon Pongprasert",
+                    "active": true,
+                    "timeZone": "Asia/Bangkok",
+                    "accountType": "atlassian"
+                },
+                "assignee": {
+                    "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/user?accountId=712020%3Aa0c6e1ff-ce16-4649-83fe-4d0a52cb11e9",
+                    "accountId": "712020:a0c6e1ff-ce16-4649-83fe-4d0a52cb11e9",
+                    "avatarUrls": {
+                        "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:a0c6e1ff-ce16-4649-83fe-4d0a52cb11e9/d5e27165-d9a6-4230-bace-dc1c43c26297/48",
+                        "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:a0c6e1ff-ce16-4649-83fe-4d0a52cb11e9/d5e27165-d9a6-4230-bace-dc1c43c26297/24",
+                        "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:a0c6e1ff-ce16-4649-83fe-4d0a52cb11e9/d5e27165-d9a6-4230-bace-dc1c43c26297/16",
+                        "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:a0c6e1ff-ce16-4649-83fe-4d0a52cb11e9/d5e27165-d9a6-4230-bace-dc1c43c26297/32"
+                    },
+                    "displayName": "Naroemon Pongprasert",
+                    "active": true,
+                    "timeZone": "Asia/Bangkok",
+                    "accountType": "atlassian"
+                },
                 "updated": "2023-12-13T21:09:20.503+0700",
                 "status": {
                     "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/status/10147",
@@ -56,19 +278,63 @@
             "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/issue/11661",
             "key": "STI-15",
             "fields": {
-                "updated": "2023-12-13T21:09:00.102+0700",
+                "summary": "ทำเอกสารสอบ ISO",
+                "created": "2023-12-13T21:07:54.358+0700",
+                "project": {
+                    "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/project/10044",
+                    "id": "10044",
+                    "key": "STI",
+                    "name": "SENSE-TEAM_IT",
+                    "projectTypeKey": "software",
+                    "simplified": true,
+                    "avatarUrls": {
+                        "48x48": "https://jira-sense-info-tech.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10413",
+                        "24x24": "https://jira-sense-info-tech.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10413?size=small",
+                        "16x16": "https://jira-sense-info-tech.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10413?size=xsmall",
+                        "32x32": "https://jira-sense-info-tech.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10413?size=medium"
+                    }
+                },
+                "reporter": {
+                    "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/user?accountId=712020%3Aa0c6e1ff-ce16-4649-83fe-4d0a52cb11e9",
+                    "accountId": "712020:a0c6e1ff-ce16-4649-83fe-4d0a52cb11e9",
+                    "avatarUrls": {
+                        "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:a0c6e1ff-ce16-4649-83fe-4d0a52cb11e9/d5e27165-d9a6-4230-bace-dc1c43c26297/48",
+                        "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:a0c6e1ff-ce16-4649-83fe-4d0a52cb11e9/d5e27165-d9a6-4230-bace-dc1c43c26297/24",
+                        "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:a0c6e1ff-ce16-4649-83fe-4d0a52cb11e9/d5e27165-d9a6-4230-bace-dc1c43c26297/16",
+                        "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:a0c6e1ff-ce16-4649-83fe-4d0a52cb11e9/d5e27165-d9a6-4230-bace-dc1c43c26297/32"
+                    },
+                    "displayName": "Naroemon Pongprasert",
+                    "active": true,
+                    "timeZone": "Asia/Bangkok",
+                    "accountType": "atlassian"
+                },
+                "assignee": {
+                    "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/user?accountId=712020%3A2024b03e-f93e-48b8-8f88-62a239089408",
+                    "accountId": "712020:2024b03e-f93e-48b8-8f88-62a239089408",
+                    "avatarUrls": {
+                        "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:2024b03e-f93e-48b8-8f88-62a239089408/88fffb5d-7cfc-48b3-a3da-1896350ad85e/48",
+                        "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:2024b03e-f93e-48b8-8f88-62a239089408/88fffb5d-7cfc-48b3-a3da-1896350ad85e/24",
+                        "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:2024b03e-f93e-48b8-8f88-62a239089408/88fffb5d-7cfc-48b3-a3da-1896350ad85e/16",
+                        "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:2024b03e-f93e-48b8-8f88-62a239089408/88fffb5d-7cfc-48b3-a3da-1896350ad85e/32"
+                    },
+                    "displayName": "santhanaphong wongthongdee",
+                    "active": true,
+                    "timeZone": "Asia/Bangkok",
+                    "accountType": "atlassian"
+                },
+                "updated": "2023-12-15T15:48:04.065+0700",
                 "status": {
-                    "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/status/10147",
-                    "description": "",
+                    "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/status/10148",
+                    "description": "This issue is being actively worked on at the moment by the assignee.",
                     "iconUrl": "https://jira-sense-info-tech.atlassian.net/",
-                    "name": "To Do",
-                    "id": "10147",
+                    "name": "In Progress",
+                    "id": "10148",
                     "statusCategory": {
-                        "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/statuscategory/2",
-                        "id": 2,
-                        "key": "new",
-                        "colorName": "blue-gray",
-                        "name": "To Do"
+                        "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/statuscategory/4",
+                        "id": 4,
+                        "key": "indeterminate",
+                        "colorName": "yellow",
+                        "name": "In Progress"
                     }
                 }
             }
@@ -79,6 +345,50 @@
             "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/issue/11660",
             "key": "STI-14",
             "fields": {
+                "summary": "ทำเอกสารสอบ ISO",
+                "created": "2023-12-13T21:07:52.677+0700",
+                "project": {
+                    "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/project/10044",
+                    "id": "10044",
+                    "key": "STI",
+                    "name": "SENSE-TEAM_IT",
+                    "projectTypeKey": "software",
+                    "simplified": true,
+                    "avatarUrls": {
+                        "48x48": "https://jira-sense-info-tech.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10413",
+                        "24x24": "https://jira-sense-info-tech.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10413?size=small",
+                        "16x16": "https://jira-sense-info-tech.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10413?size=xsmall",
+                        "32x32": "https://jira-sense-info-tech.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10413?size=medium"
+                    }
+                },
+                "reporter": {
+                    "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/user?accountId=712020%3Aa0c6e1ff-ce16-4649-83fe-4d0a52cb11e9",
+                    "accountId": "712020:a0c6e1ff-ce16-4649-83fe-4d0a52cb11e9",
+                    "avatarUrls": {
+                        "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:a0c6e1ff-ce16-4649-83fe-4d0a52cb11e9/d5e27165-d9a6-4230-bace-dc1c43c26297/48",
+                        "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:a0c6e1ff-ce16-4649-83fe-4d0a52cb11e9/d5e27165-d9a6-4230-bace-dc1c43c26297/24",
+                        "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:a0c6e1ff-ce16-4649-83fe-4d0a52cb11e9/d5e27165-d9a6-4230-bace-dc1c43c26297/16",
+                        "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:a0c6e1ff-ce16-4649-83fe-4d0a52cb11e9/d5e27165-d9a6-4230-bace-dc1c43c26297/32"
+                    },
+                    "displayName": "Naroemon Pongprasert",
+                    "active": true,
+                    "timeZone": "Asia/Bangkok",
+                    "accountType": "atlassian"
+                },
+                "assignee": {
+                    "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/user?accountId=712020%3A5639f016-5cde-4669-96fd-f2250ca57de8",
+                    "accountId": "712020:5639f016-5cde-4669-96fd-f2250ca57de8",
+                    "avatarUrls": {
+                        "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:5639f016-5cde-4669-96fd-f2250ca57de8/51ce21e2-e44c-4943-9455-48ea5a360256/48",
+                        "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:5639f016-5cde-4669-96fd-f2250ca57de8/51ce21e2-e44c-4943-9455-48ea5a360256/24",
+                        "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:5639f016-5cde-4669-96fd-f2250ca57de8/51ce21e2-e44c-4943-9455-48ea5a360256/16",
+                        "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:5639f016-5cde-4669-96fd-f2250ca57de8/51ce21e2-e44c-4943-9455-48ea5a360256/32"
+                    },
+                    "displayName": "Suchat Soparak",
+                    "active": true,
+                    "timeZone": "Asia/Bangkok",
+                    "accountType": "atlassian"
+                },
                 "updated": "2023-12-13T21:08:50.128+0700",
                 "status": {
                     "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/status/10147",
@@ -102,6 +412,50 @@
             "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/issue/11659",
             "key": "STI-13",
             "fields": {
+                "summary": "ทำเอกสารสอบ ISO",
+                "created": "2023-12-13T21:07:49.731+0700",
+                "project": {
+                    "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/project/10044",
+                    "id": "10044",
+                    "key": "STI",
+                    "name": "SENSE-TEAM_IT",
+                    "projectTypeKey": "software",
+                    "simplified": true,
+                    "avatarUrls": {
+                        "48x48": "https://jira-sense-info-tech.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10413",
+                        "24x24": "https://jira-sense-info-tech.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10413?size=small",
+                        "16x16": "https://jira-sense-info-tech.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10413?size=xsmall",
+                        "32x32": "https://jira-sense-info-tech.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10413?size=medium"
+                    }
+                },
+                "reporter": {
+                    "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/user?accountId=712020%3Aa0c6e1ff-ce16-4649-83fe-4d0a52cb11e9",
+                    "accountId": "712020:a0c6e1ff-ce16-4649-83fe-4d0a52cb11e9",
+                    "avatarUrls": {
+                        "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:a0c6e1ff-ce16-4649-83fe-4d0a52cb11e9/d5e27165-d9a6-4230-bace-dc1c43c26297/48",
+                        "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:a0c6e1ff-ce16-4649-83fe-4d0a52cb11e9/d5e27165-d9a6-4230-bace-dc1c43c26297/24",
+                        "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:a0c6e1ff-ce16-4649-83fe-4d0a52cb11e9/d5e27165-d9a6-4230-bace-dc1c43c26297/16",
+                        "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:a0c6e1ff-ce16-4649-83fe-4d0a52cb11e9/d5e27165-d9a6-4230-bace-dc1c43c26297/32"
+                    },
+                    "displayName": "Naroemon Pongprasert",
+                    "active": true,
+                    "timeZone": "Asia/Bangkok",
+                    "accountType": "atlassian"
+                },
+                "assignee": {
+                    "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/user?accountId=712020%3A35d7d326-61b6-4ac1-9d77-723a268abb2f",
+                    "accountId": "712020:35d7d326-61b6-4ac1-9d77-723a268abb2f",
+                    "avatarUrls": {
+                        "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:35d7d326-61b6-4ac1-9d77-723a268abb2f/33d375a6-a31a-448b-9bb8-b6df0da61428/48",
+                        "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:35d7d326-61b6-4ac1-9d77-723a268abb2f/33d375a6-a31a-448b-9bb8-b6df0da61428/24",
+                        "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:35d7d326-61b6-4ac1-9d77-723a268abb2f/33d375a6-a31a-448b-9bb8-b6df0da61428/16",
+                        "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:35d7d326-61b6-4ac1-9d77-723a268abb2f/33d375a6-a31a-448b-9bb8-b6df0da61428/32"
+                    },
+                    "displayName": "Nontapat",
+                    "active": true,
+                    "timeZone": "Asia/Bangkok",
+                    "accountType": "atlassian"
+                },
                 "updated": "2023-12-15T10:40:33.863+0700",
                 "status": {
                     "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/status/10149",
@@ -125,6 +479,50 @@
             "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/issue/11658",
             "key": "STI-12",
             "fields": {
+                "summary": "ทำเอกสารสอบ ISO",
+                "created": "2023-12-13T21:07:47.522+0700",
+                "project": {
+                    "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/project/10044",
+                    "id": "10044",
+                    "key": "STI",
+                    "name": "SENSE-TEAM_IT",
+                    "projectTypeKey": "software",
+                    "simplified": true,
+                    "avatarUrls": {
+                        "48x48": "https://jira-sense-info-tech.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10413",
+                        "24x24": "https://jira-sense-info-tech.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10413?size=small",
+                        "16x16": "https://jira-sense-info-tech.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10413?size=xsmall",
+                        "32x32": "https://jira-sense-info-tech.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10413?size=medium"
+                    }
+                },
+                "reporter": {
+                    "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/user?accountId=712020%3Aa0c6e1ff-ce16-4649-83fe-4d0a52cb11e9",
+                    "accountId": "712020:a0c6e1ff-ce16-4649-83fe-4d0a52cb11e9",
+                    "avatarUrls": {
+                        "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:a0c6e1ff-ce16-4649-83fe-4d0a52cb11e9/d5e27165-d9a6-4230-bace-dc1c43c26297/48",
+                        "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:a0c6e1ff-ce16-4649-83fe-4d0a52cb11e9/d5e27165-d9a6-4230-bace-dc1c43c26297/24",
+                        "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:a0c6e1ff-ce16-4649-83fe-4d0a52cb11e9/d5e27165-d9a6-4230-bace-dc1c43c26297/16",
+                        "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:a0c6e1ff-ce16-4649-83fe-4d0a52cb11e9/d5e27165-d9a6-4230-bace-dc1c43c26297/32"
+                    },
+                    "displayName": "Naroemon Pongprasert",
+                    "active": true,
+                    "timeZone": "Asia/Bangkok",
+                    "accountType": "atlassian"
+                },
+                "assignee": {
+                    "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/user?accountId=712020%3Ad00bcf1b-3139-4e19-96c6-f2b0ae3a5ff3",
+                    "accountId": "712020:d00bcf1b-3139-4e19-96c6-f2b0ae3a5ff3",
+                    "avatarUrls": {
+                        "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:d00bcf1b-3139-4e19-96c6-f2b0ae3a5ff3/9547b077-90b7-4f4b-8605-56ca610b3818/48",
+                        "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:d00bcf1b-3139-4e19-96c6-f2b0ae3a5ff3/9547b077-90b7-4f4b-8605-56ca610b3818/24",
+                        "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:d00bcf1b-3139-4e19-96c6-f2b0ae3a5ff3/9547b077-90b7-4f4b-8605-56ca610b3818/16",
+                        "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:d00bcf1b-3139-4e19-96c6-f2b0ae3a5ff3/9547b077-90b7-4f4b-8605-56ca610b3818/32"
+                    },
+                    "displayName": "Tatchai Samutsopakul",
+                    "active": true,
+                    "timeZone": "Asia/Bangkok",
+                    "accountType": "atlassian"
+                },
                 "updated": "2023-12-13T21:08:00.481+0700",
                 "status": {
                     "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/status/10147",
@@ -148,6 +546,50 @@
             "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/issue/11657",
             "key": "STI-11",
             "fields": {
+                "summary": "ทำเอกสารสอบ ISO",
+                "created": "2023-12-13T21:07:00.066+0700",
+                "project": {
+                    "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/project/10044",
+                    "id": "10044",
+                    "key": "STI",
+                    "name": "SENSE-TEAM_IT",
+                    "projectTypeKey": "software",
+                    "simplified": true,
+                    "avatarUrls": {
+                        "48x48": "https://jira-sense-info-tech.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10413",
+                        "24x24": "https://jira-sense-info-tech.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10413?size=small",
+                        "16x16": "https://jira-sense-info-tech.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10413?size=xsmall",
+                        "32x32": "https://jira-sense-info-tech.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10413?size=medium"
+                    }
+                },
+                "reporter": {
+                    "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/user?accountId=712020%3Aa0c6e1ff-ce16-4649-83fe-4d0a52cb11e9",
+                    "accountId": "712020:a0c6e1ff-ce16-4649-83fe-4d0a52cb11e9",
+                    "avatarUrls": {
+                        "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:a0c6e1ff-ce16-4649-83fe-4d0a52cb11e9/d5e27165-d9a6-4230-bace-dc1c43c26297/48",
+                        "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:a0c6e1ff-ce16-4649-83fe-4d0a52cb11e9/d5e27165-d9a6-4230-bace-dc1c43c26297/24",
+                        "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:a0c6e1ff-ce16-4649-83fe-4d0a52cb11e9/d5e27165-d9a6-4230-bace-dc1c43c26297/16",
+                        "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:a0c6e1ff-ce16-4649-83fe-4d0a52cb11e9/d5e27165-d9a6-4230-bace-dc1c43c26297/32"
+                    },
+                    "displayName": "Naroemon Pongprasert",
+                    "active": true,
+                    "timeZone": "Asia/Bangkok",
+                    "accountType": "atlassian"
+                },
+                "assignee": {
+                    "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/user?accountId=712020%3Aa0c6e1ff-ce16-4649-83fe-4d0a52cb11e9",
+                    "accountId": "712020:a0c6e1ff-ce16-4649-83fe-4d0a52cb11e9",
+                    "avatarUrls": {
+                        "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:a0c6e1ff-ce16-4649-83fe-4d0a52cb11e9/d5e27165-d9a6-4230-bace-dc1c43c26297/48",
+                        "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:a0c6e1ff-ce16-4649-83fe-4d0a52cb11e9/d5e27165-d9a6-4230-bace-dc1c43c26297/24",
+                        "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:a0c6e1ff-ce16-4649-83fe-4d0a52cb11e9/d5e27165-d9a6-4230-bace-dc1c43c26297/16",
+                        "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:a0c6e1ff-ce16-4649-83fe-4d0a52cb11e9/d5e27165-d9a6-4230-bace-dc1c43c26297/32"
+                    },
+                    "displayName": "Naroemon Pongprasert",
+                    "active": true,
+                    "timeZone": "Asia/Bangkok",
+                    "accountType": "atlassian"
+                },
                 "updated": "2023-12-14T08:47:43.885+0700",
                 "status": {
                     "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/status/10148",
@@ -171,7 +613,51 @@
             "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/issue/11637",
             "key": "STI-10",
             "fields": {
-                "updated": "2023-12-13T17:20:49.616+0700",
+                "summary": "Fix map service (275) for WLMAPRO",
+                "created": "2023-12-13T17:20:23.762+0700",
+                "project": {
+                    "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/project/10044",
+                    "id": "10044",
+                    "key": "STI",
+                    "name": "SENSE-TEAM_IT",
+                    "projectTypeKey": "software",
+                    "simplified": true,
+                    "avatarUrls": {
+                        "48x48": "https://jira-sense-info-tech.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10413",
+                        "24x24": "https://jira-sense-info-tech.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10413?size=small",
+                        "16x16": "https://jira-sense-info-tech.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10413?size=xsmall",
+                        "32x32": "https://jira-sense-info-tech.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10413?size=medium"
+                    }
+                },
+                "reporter": {
+                    "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/user?accountId=712020%3Ae0c1f4d1-f728-4fa1-aec0-5d3b4ecff8ba",
+                    "accountId": "712020:e0c1f4d1-f728-4fa1-aec0-5d3b4ecff8ba",
+                    "avatarUrls": {
+                        "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:e0c1f4d1-f728-4fa1-aec0-5d3b4ecff8ba/8864e8ef-e032-4b9e-9d44-812a5200e9ae/48",
+                        "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:e0c1f4d1-f728-4fa1-aec0-5d3b4ecff8ba/8864e8ef-e032-4b9e-9d44-812a5200e9ae/24",
+                        "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:e0c1f4d1-f728-4fa1-aec0-5d3b4ecff8ba/8864e8ef-e032-4b9e-9d44-812a5200e9ae/16",
+                        "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:e0c1f4d1-f728-4fa1-aec0-5d3b4ecff8ba/8864e8ef-e032-4b9e-9d44-812a5200e9ae/32"
+                    },
+                    "displayName": "SAMART KUMNATE",
+                    "active": true,
+                    "timeZone": "Asia/Bangkok",
+                    "accountType": "atlassian"
+                },
+                "assignee": {
+                    "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/user?accountId=712020%3Ae0c1f4d1-f728-4fa1-aec0-5d3b4ecff8ba",
+                    "accountId": "712020:e0c1f4d1-f728-4fa1-aec0-5d3b4ecff8ba",
+                    "avatarUrls": {
+                        "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:e0c1f4d1-f728-4fa1-aec0-5d3b4ecff8ba/8864e8ef-e032-4b9e-9d44-812a5200e9ae/48",
+                        "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:e0c1f4d1-f728-4fa1-aec0-5d3b4ecff8ba/8864e8ef-e032-4b9e-9d44-812a5200e9ae/24",
+                        "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:e0c1f4d1-f728-4fa1-aec0-5d3b4ecff8ba/8864e8ef-e032-4b9e-9d44-812a5200e9ae/16",
+                        "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:e0c1f4d1-f728-4fa1-aec0-5d3b4ecff8ba/8864e8ef-e032-4b9e-9d44-812a5200e9ae/32"
+                    },
+                    "displayName": "SAMART KUMNATE",
+                    "active": true,
+                    "timeZone": "Asia/Bangkok",
+                    "accountType": "atlassian"
+                },
+                "updated": "2023-12-15T16:16:28.279+0700",
                 "status": {
                     "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/status/10149",
                     "description": "",
@@ -194,6 +680,50 @@
             "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/issue/11636",
             "key": "STI-9",
             "fields": {
+                "summary": "Fix data missing for existed and new layers at BD",
+                "created": "2023-12-13T17:19:09.424+0700",
+                "project": {
+                    "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/project/10044",
+                    "id": "10044",
+                    "key": "STI",
+                    "name": "SENSE-TEAM_IT",
+                    "projectTypeKey": "software",
+                    "simplified": true,
+                    "avatarUrls": {
+                        "48x48": "https://jira-sense-info-tech.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10413",
+                        "24x24": "https://jira-sense-info-tech.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10413?size=small",
+                        "16x16": "https://jira-sense-info-tech.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10413?size=xsmall",
+                        "32x32": "https://jira-sense-info-tech.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10413?size=medium"
+                    }
+                },
+                "reporter": {
+                    "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/user?accountId=712020%3Ae0c1f4d1-f728-4fa1-aec0-5d3b4ecff8ba",
+                    "accountId": "712020:e0c1f4d1-f728-4fa1-aec0-5d3b4ecff8ba",
+                    "avatarUrls": {
+                        "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:e0c1f4d1-f728-4fa1-aec0-5d3b4ecff8ba/8864e8ef-e032-4b9e-9d44-812a5200e9ae/48",
+                        "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:e0c1f4d1-f728-4fa1-aec0-5d3b4ecff8ba/8864e8ef-e032-4b9e-9d44-812a5200e9ae/24",
+                        "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:e0c1f4d1-f728-4fa1-aec0-5d3b4ecff8ba/8864e8ef-e032-4b9e-9d44-812a5200e9ae/16",
+                        "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:e0c1f4d1-f728-4fa1-aec0-5d3b4ecff8ba/8864e8ef-e032-4b9e-9d44-812a5200e9ae/32"
+                    },
+                    "displayName": "SAMART KUMNATE",
+                    "active": true,
+                    "timeZone": "Asia/Bangkok",
+                    "accountType": "atlassian"
+                },
+                "assignee": {
+                    "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/user?accountId=712020%3Ae0c1f4d1-f728-4fa1-aec0-5d3b4ecff8ba",
+                    "accountId": "712020:e0c1f4d1-f728-4fa1-aec0-5d3b4ecff8ba",
+                    "avatarUrls": {
+                        "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:e0c1f4d1-f728-4fa1-aec0-5d3b4ecff8ba/8864e8ef-e032-4b9e-9d44-812a5200e9ae/48",
+                        "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:e0c1f4d1-f728-4fa1-aec0-5d3b4ecff8ba/8864e8ef-e032-4b9e-9d44-812a5200e9ae/24",
+                        "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:e0c1f4d1-f728-4fa1-aec0-5d3b4ecff8ba/8864e8ef-e032-4b9e-9d44-812a5200e9ae/16",
+                        "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:e0c1f4d1-f728-4fa1-aec0-5d3b4ecff8ba/8864e8ef-e032-4b9e-9d44-812a5200e9ae/32"
+                    },
+                    "displayName": "SAMART KUMNATE",
+                    "active": true,
+                    "timeZone": "Asia/Bangkok",
+                    "accountType": "atlassian"
+                },
                 "updated": "2023-12-13T17:20:47.830+0700",
                 "status": {
                     "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/status/10149",
@@ -217,6 +747,50 @@
             "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/issue/11572",
             "key": "STI-8",
             "fields": {
+                "summary": "Test Migrate ข้อมูลจาก JIRA",
+                "created": "2023-12-13T09:08:42.266+0700",
+                "project": {
+                    "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/project/10044",
+                    "id": "10044",
+                    "key": "STI",
+                    "name": "SENSE-TEAM_IT",
+                    "projectTypeKey": "software",
+                    "simplified": true,
+                    "avatarUrls": {
+                        "48x48": "https://jira-sense-info-tech.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10413",
+                        "24x24": "https://jira-sense-info-tech.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10413?size=small",
+                        "16x16": "https://jira-sense-info-tech.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10413?size=xsmall",
+                        "32x32": "https://jira-sense-info-tech.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10413?size=medium"
+                    }
+                },
+                "reporter": {
+                    "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/user?accountId=712020%3Aa0c6e1ff-ce16-4649-83fe-4d0a52cb11e9",
+                    "accountId": "712020:a0c6e1ff-ce16-4649-83fe-4d0a52cb11e9",
+                    "avatarUrls": {
+                        "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:a0c6e1ff-ce16-4649-83fe-4d0a52cb11e9/d5e27165-d9a6-4230-bace-dc1c43c26297/48",
+                        "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:a0c6e1ff-ce16-4649-83fe-4d0a52cb11e9/d5e27165-d9a6-4230-bace-dc1c43c26297/24",
+                        "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:a0c6e1ff-ce16-4649-83fe-4d0a52cb11e9/d5e27165-d9a6-4230-bace-dc1c43c26297/16",
+                        "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:a0c6e1ff-ce16-4649-83fe-4d0a52cb11e9/d5e27165-d9a6-4230-bace-dc1c43c26297/32"
+                    },
+                    "displayName": "Naroemon Pongprasert",
+                    "active": true,
+                    "timeZone": "Asia/Bangkok",
+                    "accountType": "atlassian"
+                },
+                "assignee": {
+                    "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/user?accountId=712020%3Ad00bcf1b-3139-4e19-96c6-f2b0ae3a5ff3",
+                    "accountId": "712020:d00bcf1b-3139-4e19-96c6-f2b0ae3a5ff3",
+                    "avatarUrls": {
+                        "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:d00bcf1b-3139-4e19-96c6-f2b0ae3a5ff3/9547b077-90b7-4f4b-8605-56ca610b3818/48",
+                        "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:d00bcf1b-3139-4e19-96c6-f2b0ae3a5ff3/9547b077-90b7-4f4b-8605-56ca610b3818/24",
+                        "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:d00bcf1b-3139-4e19-96c6-f2b0ae3a5ff3/9547b077-90b7-4f4b-8605-56ca610b3818/16",
+                        "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:d00bcf1b-3139-4e19-96c6-f2b0ae3a5ff3/9547b077-90b7-4f4b-8605-56ca610b3818/32"
+                    },
+                    "displayName": "Tatchai Samutsopakul",
+                    "active": true,
+                    "timeZone": "Asia/Bangkok",
+                    "accountType": "atlassian"
+                },
                 "updated": "2023-12-13T09:09:40.670+0700",
                 "status": {
                     "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/status/10147",
@@ -240,6 +814,50 @@
             "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/issue/11562",
             "key": "STI-7",
             "fields": {
+                "summary": "Deploy iims on production",
+                "created": "2023-12-12T15:38:06.009+0700",
+                "project": {
+                    "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/project/10044",
+                    "id": "10044",
+                    "key": "STI",
+                    "name": "SENSE-TEAM_IT",
+                    "projectTypeKey": "software",
+                    "simplified": true,
+                    "avatarUrls": {
+                        "48x48": "https://jira-sense-info-tech.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10413",
+                        "24x24": "https://jira-sense-info-tech.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10413?size=small",
+                        "16x16": "https://jira-sense-info-tech.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10413?size=xsmall",
+                        "32x32": "https://jira-sense-info-tech.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10413?size=medium"
+                    }
+                },
+                "reporter": {
+                    "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/user?accountId=712020%3Ae0c1f4d1-f728-4fa1-aec0-5d3b4ecff8ba",
+                    "accountId": "712020:e0c1f4d1-f728-4fa1-aec0-5d3b4ecff8ba",
+                    "avatarUrls": {
+                        "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:e0c1f4d1-f728-4fa1-aec0-5d3b4ecff8ba/8864e8ef-e032-4b9e-9d44-812a5200e9ae/48",
+                        "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:e0c1f4d1-f728-4fa1-aec0-5d3b4ecff8ba/8864e8ef-e032-4b9e-9d44-812a5200e9ae/24",
+                        "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:e0c1f4d1-f728-4fa1-aec0-5d3b4ecff8ba/8864e8ef-e032-4b9e-9d44-812a5200e9ae/16",
+                        "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:e0c1f4d1-f728-4fa1-aec0-5d3b4ecff8ba/8864e8ef-e032-4b9e-9d44-812a5200e9ae/32"
+                    },
+                    "displayName": "SAMART KUMNATE",
+                    "active": true,
+                    "timeZone": "Asia/Bangkok",
+                    "accountType": "atlassian"
+                },
+                "assignee": {
+                    "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/user?accountId=712020%3Ae0c1f4d1-f728-4fa1-aec0-5d3b4ecff8ba",
+                    "accountId": "712020:e0c1f4d1-f728-4fa1-aec0-5d3b4ecff8ba",
+                    "avatarUrls": {
+                        "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:e0c1f4d1-f728-4fa1-aec0-5d3b4ecff8ba/8864e8ef-e032-4b9e-9d44-812a5200e9ae/48",
+                        "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:e0c1f4d1-f728-4fa1-aec0-5d3b4ecff8ba/8864e8ef-e032-4b9e-9d44-812a5200e9ae/24",
+                        "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:e0c1f4d1-f728-4fa1-aec0-5d3b4ecff8ba/8864e8ef-e032-4b9e-9d44-812a5200e9ae/16",
+                        "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:e0c1f4d1-f728-4fa1-aec0-5d3b4ecff8ba/8864e8ef-e032-4b9e-9d44-812a5200e9ae/32"
+                    },
+                    "displayName": "SAMART KUMNATE",
+                    "active": true,
+                    "timeZone": "Asia/Bangkok",
+                    "accountType": "atlassian"
+                },
                 "updated": "2023-12-12T15:39:21.314+0700",
                 "status": {
                     "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/status/10149",
@@ -263,6 +881,50 @@
             "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/issue/11551",
             "key": "STI-6",
             "fields": {
+                "summary": "Insert new layers to dropdownlist options",
+                "created": "2023-12-12T13:09:38.092+0700",
+                "project": {
+                    "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/project/10044",
+                    "id": "10044",
+                    "key": "STI",
+                    "name": "SENSE-TEAM_IT",
+                    "projectTypeKey": "software",
+                    "simplified": true,
+                    "avatarUrls": {
+                        "48x48": "https://jira-sense-info-tech.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10413",
+                        "24x24": "https://jira-sense-info-tech.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10413?size=small",
+                        "16x16": "https://jira-sense-info-tech.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10413?size=xsmall",
+                        "32x32": "https://jira-sense-info-tech.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10413?size=medium"
+                    }
+                },
+                "reporter": {
+                    "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/user?accountId=712020%3Ae0c1f4d1-f728-4fa1-aec0-5d3b4ecff8ba",
+                    "accountId": "712020:e0c1f4d1-f728-4fa1-aec0-5d3b4ecff8ba",
+                    "avatarUrls": {
+                        "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:e0c1f4d1-f728-4fa1-aec0-5d3b4ecff8ba/8864e8ef-e032-4b9e-9d44-812a5200e9ae/48",
+                        "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:e0c1f4d1-f728-4fa1-aec0-5d3b4ecff8ba/8864e8ef-e032-4b9e-9d44-812a5200e9ae/24",
+                        "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:e0c1f4d1-f728-4fa1-aec0-5d3b4ecff8ba/8864e8ef-e032-4b9e-9d44-812a5200e9ae/16",
+                        "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:e0c1f4d1-f728-4fa1-aec0-5d3b4ecff8ba/8864e8ef-e032-4b9e-9d44-812a5200e9ae/32"
+                    },
+                    "displayName": "SAMART KUMNATE",
+                    "active": true,
+                    "timeZone": "Asia/Bangkok",
+                    "accountType": "atlassian"
+                },
+                "assignee": {
+                    "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/user?accountId=712020%3Ae0c1f4d1-f728-4fa1-aec0-5d3b4ecff8ba",
+                    "accountId": "712020:e0c1f4d1-f728-4fa1-aec0-5d3b4ecff8ba",
+                    "avatarUrls": {
+                        "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:e0c1f4d1-f728-4fa1-aec0-5d3b4ecff8ba/8864e8ef-e032-4b9e-9d44-812a5200e9ae/48",
+                        "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:e0c1f4d1-f728-4fa1-aec0-5d3b4ecff8ba/8864e8ef-e032-4b9e-9d44-812a5200e9ae/24",
+                        "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:e0c1f4d1-f728-4fa1-aec0-5d3b4ecff8ba/8864e8ef-e032-4b9e-9d44-812a5200e9ae/16",
+                        "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:e0c1f4d1-f728-4fa1-aec0-5d3b4ecff8ba/8864e8ef-e032-4b9e-9d44-812a5200e9ae/32"
+                    },
+                    "displayName": "SAMART KUMNATE",
+                    "active": true,
+                    "timeZone": "Asia/Bangkok",
+                    "accountType": "atlassian"
+                },
                 "updated": "2023-12-12T15:39:28.747+0700",
                 "status": {
                     "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/status/10149",
@@ -286,6 +948,50 @@
             "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/issue/11408",
             "key": "STI-5",
             "fields": {
+                "summary": "refactor iims.mvc (map) - update overlay layers for new layers)",
+                "created": "2023-12-04T15:26:11.599+0700",
+                "project": {
+                    "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/project/10044",
+                    "id": "10044",
+                    "key": "STI",
+                    "name": "SENSE-TEAM_IT",
+                    "projectTypeKey": "software",
+                    "simplified": true,
+                    "avatarUrls": {
+                        "48x48": "https://jira-sense-info-tech.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10413",
+                        "24x24": "https://jira-sense-info-tech.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10413?size=small",
+                        "16x16": "https://jira-sense-info-tech.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10413?size=xsmall",
+                        "32x32": "https://jira-sense-info-tech.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10413?size=medium"
+                    }
+                },
+                "reporter": {
+                    "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/user?accountId=712020%3Ae0c1f4d1-f728-4fa1-aec0-5d3b4ecff8ba",
+                    "accountId": "712020:e0c1f4d1-f728-4fa1-aec0-5d3b4ecff8ba",
+                    "avatarUrls": {
+                        "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:e0c1f4d1-f728-4fa1-aec0-5d3b4ecff8ba/8864e8ef-e032-4b9e-9d44-812a5200e9ae/48",
+                        "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:e0c1f4d1-f728-4fa1-aec0-5d3b4ecff8ba/8864e8ef-e032-4b9e-9d44-812a5200e9ae/24",
+                        "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:e0c1f4d1-f728-4fa1-aec0-5d3b4ecff8ba/8864e8ef-e032-4b9e-9d44-812a5200e9ae/16",
+                        "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:e0c1f4d1-f728-4fa1-aec0-5d3b4ecff8ba/8864e8ef-e032-4b9e-9d44-812a5200e9ae/32"
+                    },
+                    "displayName": "SAMART KUMNATE",
+                    "active": true,
+                    "timeZone": "Asia/Bangkok",
+                    "accountType": "atlassian"
+                },
+                "assignee": {
+                    "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/user?accountId=712020%3Ae0c1f4d1-f728-4fa1-aec0-5d3b4ecff8ba",
+                    "accountId": "712020:e0c1f4d1-f728-4fa1-aec0-5d3b4ecff8ba",
+                    "avatarUrls": {
+                        "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:e0c1f4d1-f728-4fa1-aec0-5d3b4ecff8ba/8864e8ef-e032-4b9e-9d44-812a5200e9ae/48",
+                        "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:e0c1f4d1-f728-4fa1-aec0-5d3b4ecff8ba/8864e8ef-e032-4b9e-9d44-812a5200e9ae/24",
+                        "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:e0c1f4d1-f728-4fa1-aec0-5d3b4ecff8ba/8864e8ef-e032-4b9e-9d44-812a5200e9ae/16",
+                        "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:e0c1f4d1-f728-4fa1-aec0-5d3b4ecff8ba/8864e8ef-e032-4b9e-9d44-812a5200e9ae/32"
+                    },
+                    "displayName": "SAMART KUMNATE",
+                    "active": true,
+                    "timeZone": "Asia/Bangkok",
+                    "accountType": "atlassian"
+                },
                 "updated": "2023-12-12T15:37:27.802+0700",
                 "status": {
                     "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/status/10149",
@@ -309,6 +1015,50 @@
             "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/issue/11407",
             "key": "STI-4",
             "fields": {
+                "summary": "create new repo for react app (auth & privacy control)",
+                "created": "2023-12-04T15:25:18.170+0700",
+                "project": {
+                    "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/project/10044",
+                    "id": "10044",
+                    "key": "STI",
+                    "name": "SENSE-TEAM_IT",
+                    "projectTypeKey": "software",
+                    "simplified": true,
+                    "avatarUrls": {
+                        "48x48": "https://jira-sense-info-tech.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10413",
+                        "24x24": "https://jira-sense-info-tech.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10413?size=small",
+                        "16x16": "https://jira-sense-info-tech.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10413?size=xsmall",
+                        "32x32": "https://jira-sense-info-tech.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10413?size=medium"
+                    }
+                },
+                "reporter": {
+                    "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/user?accountId=712020%3Ae0c1f4d1-f728-4fa1-aec0-5d3b4ecff8ba",
+                    "accountId": "712020:e0c1f4d1-f728-4fa1-aec0-5d3b4ecff8ba",
+                    "avatarUrls": {
+                        "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:e0c1f4d1-f728-4fa1-aec0-5d3b4ecff8ba/8864e8ef-e032-4b9e-9d44-812a5200e9ae/48",
+                        "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:e0c1f4d1-f728-4fa1-aec0-5d3b4ecff8ba/8864e8ef-e032-4b9e-9d44-812a5200e9ae/24",
+                        "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:e0c1f4d1-f728-4fa1-aec0-5d3b4ecff8ba/8864e8ef-e032-4b9e-9d44-812a5200e9ae/16",
+                        "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:e0c1f4d1-f728-4fa1-aec0-5d3b4ecff8ba/8864e8ef-e032-4b9e-9d44-812a5200e9ae/32"
+                    },
+                    "displayName": "SAMART KUMNATE",
+                    "active": true,
+                    "timeZone": "Asia/Bangkok",
+                    "accountType": "atlassian"
+                },
+                "assignee": {
+                    "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/user?accountId=712020%3Ae0c1f4d1-f728-4fa1-aec0-5d3b4ecff8ba",
+                    "accountId": "712020:e0c1f4d1-f728-4fa1-aec0-5d3b4ecff8ba",
+                    "avatarUrls": {
+                        "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:e0c1f4d1-f728-4fa1-aec0-5d3b4ecff8ba/8864e8ef-e032-4b9e-9d44-812a5200e9ae/48",
+                        "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:e0c1f4d1-f728-4fa1-aec0-5d3b4ecff8ba/8864e8ef-e032-4b9e-9d44-812a5200e9ae/24",
+                        "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:e0c1f4d1-f728-4fa1-aec0-5d3b4ecff8ba/8864e8ef-e032-4b9e-9d44-812a5200e9ae/16",
+                        "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:e0c1f4d1-f728-4fa1-aec0-5d3b4ecff8ba/8864e8ef-e032-4b9e-9d44-812a5200e9ae/32"
+                    },
+                    "displayName": "SAMART KUMNATE",
+                    "active": true,
+                    "timeZone": "Asia/Bangkok",
+                    "accountType": "atlassian"
+                },
                 "updated": "2023-12-12T15:48:22.076+0700",
                 "status": {
                     "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/status/10149",
@@ -332,6 +1082,50 @@
             "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/issue/11406",
             "key": "STI-3",
             "fields": {
+                "summary": "create new layers for iims at BD",
+                "created": "2023-12-04T15:23:18.432+0700",
+                "project": {
+                    "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/project/10044",
+                    "id": "10044",
+                    "key": "STI",
+                    "name": "SENSE-TEAM_IT",
+                    "projectTypeKey": "software",
+                    "simplified": true,
+                    "avatarUrls": {
+                        "48x48": "https://jira-sense-info-tech.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10413",
+                        "24x24": "https://jira-sense-info-tech.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10413?size=small",
+                        "16x16": "https://jira-sense-info-tech.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10413?size=xsmall",
+                        "32x32": "https://jira-sense-info-tech.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10413?size=medium"
+                    }
+                },
+                "reporter": {
+                    "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/user?accountId=712020%3Ae0c1f4d1-f728-4fa1-aec0-5d3b4ecff8ba",
+                    "accountId": "712020:e0c1f4d1-f728-4fa1-aec0-5d3b4ecff8ba",
+                    "avatarUrls": {
+                        "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:e0c1f4d1-f728-4fa1-aec0-5d3b4ecff8ba/8864e8ef-e032-4b9e-9d44-812a5200e9ae/48",
+                        "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:e0c1f4d1-f728-4fa1-aec0-5d3b4ecff8ba/8864e8ef-e032-4b9e-9d44-812a5200e9ae/24",
+                        "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:e0c1f4d1-f728-4fa1-aec0-5d3b4ecff8ba/8864e8ef-e032-4b9e-9d44-812a5200e9ae/16",
+                        "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:e0c1f4d1-f728-4fa1-aec0-5d3b4ecff8ba/8864e8ef-e032-4b9e-9d44-812a5200e9ae/32"
+                    },
+                    "displayName": "SAMART KUMNATE",
+                    "active": true,
+                    "timeZone": "Asia/Bangkok",
+                    "accountType": "atlassian"
+                },
+                "assignee": {
+                    "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/user?accountId=712020%3Ae0c1f4d1-f728-4fa1-aec0-5d3b4ecff8ba",
+                    "accountId": "712020:e0c1f4d1-f728-4fa1-aec0-5d3b4ecff8ba",
+                    "avatarUrls": {
+                        "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:e0c1f4d1-f728-4fa1-aec0-5d3b4ecff8ba/8864e8ef-e032-4b9e-9d44-812a5200e9ae/48",
+                        "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:e0c1f4d1-f728-4fa1-aec0-5d3b4ecff8ba/8864e8ef-e032-4b9e-9d44-812a5200e9ae/24",
+                        "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:e0c1f4d1-f728-4fa1-aec0-5d3b4ecff8ba/8864e8ef-e032-4b9e-9d44-812a5200e9ae/16",
+                        "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:e0c1f4d1-f728-4fa1-aec0-5d3b4ecff8ba/8864e8ef-e032-4b9e-9d44-812a5200e9ae/32"
+                    },
+                    "displayName": "SAMART KUMNATE",
+                    "active": true,
+                    "timeZone": "Asia/Bangkok",
+                    "accountType": "atlassian"
+                },
                 "updated": "2023-12-12T15:37:08.187+0700",
                 "status": {
                     "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/status/10149",
@@ -355,6 +1149,50 @@
             "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/issue/11405",
             "key": "STI-2",
             "fields": {
+                "summary": "create exists layers for iims at sitdev",
+                "created": "2023-12-04T15:23:00.655+0700",
+                "project": {
+                    "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/project/10044",
+                    "id": "10044",
+                    "key": "STI",
+                    "name": "SENSE-TEAM_IT",
+                    "projectTypeKey": "software",
+                    "simplified": true,
+                    "avatarUrls": {
+                        "48x48": "https://jira-sense-info-tech.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10413",
+                        "24x24": "https://jira-sense-info-tech.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10413?size=small",
+                        "16x16": "https://jira-sense-info-tech.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10413?size=xsmall",
+                        "32x32": "https://jira-sense-info-tech.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10413?size=medium"
+                    }
+                },
+                "reporter": {
+                    "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/user?accountId=712020%3Ae0c1f4d1-f728-4fa1-aec0-5d3b4ecff8ba",
+                    "accountId": "712020:e0c1f4d1-f728-4fa1-aec0-5d3b4ecff8ba",
+                    "avatarUrls": {
+                        "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:e0c1f4d1-f728-4fa1-aec0-5d3b4ecff8ba/8864e8ef-e032-4b9e-9d44-812a5200e9ae/48",
+                        "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:e0c1f4d1-f728-4fa1-aec0-5d3b4ecff8ba/8864e8ef-e032-4b9e-9d44-812a5200e9ae/24",
+                        "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:e0c1f4d1-f728-4fa1-aec0-5d3b4ecff8ba/8864e8ef-e032-4b9e-9d44-812a5200e9ae/16",
+                        "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:e0c1f4d1-f728-4fa1-aec0-5d3b4ecff8ba/8864e8ef-e032-4b9e-9d44-812a5200e9ae/32"
+                    },
+                    "displayName": "SAMART KUMNATE",
+                    "active": true,
+                    "timeZone": "Asia/Bangkok",
+                    "accountType": "atlassian"
+                },
+                "assignee": {
+                    "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/user?accountId=712020%3Ae0c1f4d1-f728-4fa1-aec0-5d3b4ecff8ba",
+                    "accountId": "712020:e0c1f4d1-f728-4fa1-aec0-5d3b4ecff8ba",
+                    "avatarUrls": {
+                        "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:e0c1f4d1-f728-4fa1-aec0-5d3b4ecff8ba/8864e8ef-e032-4b9e-9d44-812a5200e9ae/48",
+                        "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:e0c1f4d1-f728-4fa1-aec0-5d3b4ecff8ba/8864e8ef-e032-4b9e-9d44-812a5200e9ae/24",
+                        "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:e0c1f4d1-f728-4fa1-aec0-5d3b4ecff8ba/8864e8ef-e032-4b9e-9d44-812a5200e9ae/16",
+                        "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:e0c1f4d1-f728-4fa1-aec0-5d3b4ecff8ba/8864e8ef-e032-4b9e-9d44-812a5200e9ae/32"
+                    },
+                    "displayName": "SAMART KUMNATE",
+                    "active": true,
+                    "timeZone": "Asia/Bangkok",
+                    "accountType": "atlassian"
+                },
                 "updated": "2023-12-12T15:37:05.998+0700",
                 "status": {
                     "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/status/10149",
@@ -378,6 +1216,50 @@
             "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/issue/11404",
             "key": "STI-1",
             "fields": {
+                "summary": "backup & restore database for iims at sitdev",
+                "created": "2023-12-04T15:20:04.232+0700",
+                "project": {
+                    "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/project/10044",
+                    "id": "10044",
+                    "key": "STI",
+                    "name": "SENSE-TEAM_IT",
+                    "projectTypeKey": "software",
+                    "simplified": true,
+                    "avatarUrls": {
+                        "48x48": "https://jira-sense-info-tech.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10413",
+                        "24x24": "https://jira-sense-info-tech.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10413?size=small",
+                        "16x16": "https://jira-sense-info-tech.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10413?size=xsmall",
+                        "32x32": "https://jira-sense-info-tech.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10413?size=medium"
+                    }
+                },
+                "reporter": {
+                    "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/user?accountId=712020%3Ae0c1f4d1-f728-4fa1-aec0-5d3b4ecff8ba",
+                    "accountId": "712020:e0c1f4d1-f728-4fa1-aec0-5d3b4ecff8ba",
+                    "avatarUrls": {
+                        "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:e0c1f4d1-f728-4fa1-aec0-5d3b4ecff8ba/8864e8ef-e032-4b9e-9d44-812a5200e9ae/48",
+                        "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:e0c1f4d1-f728-4fa1-aec0-5d3b4ecff8ba/8864e8ef-e032-4b9e-9d44-812a5200e9ae/24",
+                        "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:e0c1f4d1-f728-4fa1-aec0-5d3b4ecff8ba/8864e8ef-e032-4b9e-9d44-812a5200e9ae/16",
+                        "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:e0c1f4d1-f728-4fa1-aec0-5d3b4ecff8ba/8864e8ef-e032-4b9e-9d44-812a5200e9ae/32"
+                    },
+                    "displayName": "SAMART KUMNATE",
+                    "active": true,
+                    "timeZone": "Asia/Bangkok",
+                    "accountType": "atlassian"
+                },
+                "assignee": {
+                    "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/user?accountId=712020%3Ae0c1f4d1-f728-4fa1-aec0-5d3b4ecff8ba",
+                    "accountId": "712020:e0c1f4d1-f728-4fa1-aec0-5d3b4ecff8ba",
+                    "avatarUrls": {
+                        "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:e0c1f4d1-f728-4fa1-aec0-5d3b4ecff8ba/8864e8ef-e032-4b9e-9d44-812a5200e9ae/48",
+                        "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:e0c1f4d1-f728-4fa1-aec0-5d3b4ecff8ba/8864e8ef-e032-4b9e-9d44-812a5200e9ae/24",
+                        "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:e0c1f4d1-f728-4fa1-aec0-5d3b4ecff8ba/8864e8ef-e032-4b9e-9d44-812a5200e9ae/16",
+                        "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:e0c1f4d1-f728-4fa1-aec0-5d3b4ecff8ba/8864e8ef-e032-4b9e-9d44-812a5200e9ae/32"
+                    },
+                    "displayName": "SAMART KUMNATE",
+                    "active": true,
+                    "timeZone": "Asia/Bangkok",
+                    "accountType": "atlassian"
+                },
                 "updated": "2023-12-12T15:36:58.129+0700",
                 "status": {
                     "self": "https://jira-sense-info-tech.atlassian.net/rest/api/3/status/10149",

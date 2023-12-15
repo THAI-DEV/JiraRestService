@@ -3,7 +3,7 @@ require('dotenv').config();
 var _ = require('lodash');
 
 var util = require('../util/util.js');
-var restSrv = require('../service/rest.js');
+var restSrv = require('../service/rest_service.js');
 
 main();
 

@@ -1,13 +1,13 @@
 var _ = require('lodash');
 
-var restSrv = require('../service/rest.js');
+var restSrv = require('../service/rest_service.js');
 var util = require('../util/util.js');
 
-function info(req, res) {
+function infoHandler(req, res) {
   res.send('Hello World!');
 }
 
-async function userAll(req, res) {
+async function userAllHandler(req, res) {
   let inputData = await restSrv.getUserAll().then((data) => {
     return data;
   });
@@ -19,7 +19,7 @@ async function userAll(req, res) {
   res.end(JSON.stringify(resultData));
 }
 
-async function projectAll(req, res) {
+async function projectAllHandler(req, res) {
   let inputData = await restSrv.getProjectAll().then((data) => {
     return data;
   });
@@ -47,4 +47,4 @@ function filterDataProjectAll(inputData) {
   return resultData;
 }
 
-module.exports = { info, userAll, projectAll };
+module.exports = { infoHandler, userAllHandler, projectAllHandler };

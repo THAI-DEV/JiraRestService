@@ -2,7 +2,7 @@ var app_cont = require('../cont/app_cont.js');
 var util = require('../util/util.js');
 
 async function getUserAll() {
-  url = app_cont.REST_BASE_URL + '/users/search?startAt=0&maxResults=0';
+  let url = app_cont.REST_BASE_URL + '/users/search?startAt=0&maxResults=0';
 
   const response = await fetch(url, {
     method: 'GET',
@@ -17,7 +17,7 @@ async function getUserAll() {
 }
 
 async function getProjectAll() {
-  url = app_cont.REST_BASE_URL + '/project?startAt=0&maxResults=0';
+  let url = app_cont.REST_BASE_URL + '/project?startAt=0&maxResults=0';
 
   const response = await fetch(url, {
     method: 'GET',
@@ -32,7 +32,7 @@ async function getProjectAll() {
 }
 
 async function postIssueTotal(data) {
-  url = app_cont.REST_BASE_URL + '/search';
+  let url = app_cont.REST_BASE_URL + '/search';
 
   const jqlStr = util.computeJql(data);
 
@@ -56,8 +56,6 @@ async function postIssueTotal(data) {
 }
 
 async function postIssueAll(data) {
-  url = app_cont.REST_BASE_URL + '/search';
-
   const jqlStr = util.computeJql(data);
 
   const result = await findTotal(jqlStr);
@@ -99,13 +97,13 @@ function mapData(data) {
   return resultData;
 }
 
-function chkNull(data) {
-  if (data == null) {
-    return '';
-  } else {
-    return data;
-  }
-}
+// function chkNull(data) {
+//   if (data == null) {
+//     return '';
+//   } else {
+//     return data;
+//   }
+// }
 
 function displayInputData(data) {
   data.issues.forEach((item, index) => {
@@ -143,7 +141,8 @@ function displayResultData(data) {
 }
 
 async function findTotal(jqlStr) {
-  //find total
+  let url = app_cont.REST_BASE_URL + '/search';
+
   let payload = {
     jql: jqlStr,
     maxResults: 0,
@@ -168,6 +167,8 @@ async function findTotal(jqlStr) {
 }
 
 async function retrieveData(jqlStr, total, pageNo, rowPerPage) {
+  let url = app_cont.REST_BASE_URL + '/search';
+
   if (rowPerPage > 100 || rowPerPage <= 0) {
     rowPerPage = 100;
   }

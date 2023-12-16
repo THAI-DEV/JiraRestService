@@ -24,8 +24,6 @@ function pickField(data, arrField) {
   return result;
 }
 
-//function write json file
-
 function writeJsonFile(fileSource, data) {
   try {
     fs.writeFileSync(fileSource, JSON.stringify(data, null, 2), 'utf8');

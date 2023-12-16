@@ -35,7 +35,8 @@ Content-Type: application/json
 }
 
 
-###
+### pageNo = 0 : all
+### rowPerPage max : 100
 POST {{baseUrl}}/issueAll
 Content-Type: application/json
 

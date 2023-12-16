@@ -9,7 +9,7 @@ GET {{baseUrl}}/projectAll
 
 
 ###
-GET {{baseUrl}}/issueAll
+# GET {{baseUrl}}/issueAll
 
 
 ###
@@ -17,20 +17,23 @@ POST {{baseUrl}}/issueTotal
 Content-Type: application/json
 
 {
-    #  "assignee" : "712020:e0c1f4d1-f728-4fa1-aec0-5d3b4ecff8ba",
-    # "project" : "SENSE-TEAM_IT",
+    "assignee" : "712020:e0c1f4d1-f728-4fa1-aec0-5d3b4ecff8ba",
+    "operater" : "AND",
+    "reporter" : "712020:e0c1f4d1-f728-4fa1-aec0-5d3b4ecff8ba",
+    "project" : "SENSE-TEAM_IT",
     "beginDate": "2023-11-01",
     "endDate": "2023-12-31"
 }
 
 
- 
-###                                                          
- POST {{baseUrl}}/test 
+###   
+POST {{baseUrl}}/issueAll
 Content-Type: application/json
 
 {
-    # "assignee" : "712020:e0c1f4d1-f728-4fa1-aec0-5d3b4ecff8ba",
+    "assignee" : "712020:e0c1f4d1-f728-4fa1-aec0-5d3b4ecff8ba",
+    "operater" : "AND",
+    "reporter" : "712020:e0c1f4d1-f728-4fa1-aec0-5d3b4ecff8ba",
     "project" : "SENSE-TEAM_IT",
     "beginDate": "2023-11-01",
     "endDate": "2023-12-31"

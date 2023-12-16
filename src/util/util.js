@@ -61,10 +61,19 @@ function calRowPerPage(totalRows, rowsPerPage) {
 }
 
 function computeJql(data) {
-  jql = '';
+  let jql = '';
+  let oper = ' AND';
+
+  if (data.operater !== undefined) {
+    oper = ' ' + data.operater;
+  }
 
   if (data.assignee !== undefined) {
     jql = jql + 'assignee in (' + data.assignee + ')';
+  }
+
+  if (data.reporter !== undefined) {
+    jql = jql + oper + ' reporter in (' + data.reporter + ')';
   }
 
   if (data.project !== undefined) {
@@ -85,6 +94,12 @@ function computeJql(data) {
 
   if (jql.indexOf('AND') === 0) {
     jql = jql.replace('AND', '');
+  }
+
+  jql = jql.trim();
+
+  if (jql.indexOf('OR') === 0) {
+    jql = jql.replace('OR', '');
   }
 
   jql = jql.trim();

@@ -3,16 +3,16 @@ var _ = require('lodash');
 var restSrv = require('../service/rest_service.js');
 var util = require('../util/util.js');
 
-async function issueAllHandler(req, res) {
-  let inputData = await restSrv.getIssueAll().then((data) => {
-    return data;
-  });
+// async function issueAllHandler(req, res) {
+//   let inputData = await restSrv.getIssueAll().then((data) => {
+//     return data;
+//   });
 
-  let resultData = mapDataIssueAll(inputData);
+//   let resultData = mapDataIssueAll(inputData);
 
-  res.setHeader('Content-Type', 'application/json');
-  res.end(JSON.stringify(resultData));
-}
+//   res.setHeader('Content-Type', 'application/json');
+//   res.end(JSON.stringify(resultData));
+// }
 
 async function issueTotalHandler(req, res) {
   // let bodyParam = await restSrv.postTest(req.body);
@@ -27,12 +27,13 @@ async function issueTotalHandler(req, res) {
   res.end(JSON.stringify(resultData));
 }
 
-async function testHandler(req, res) {
-  let result = await restSrv.postTest(req.body);
+async function issueAllHandler(req, res) {
+  let result = await restSrv.postIssueAll(req.body);
 
   //TODO xxx
   res.setHeader('Content-Type', 'application/json');
   res.end(JSON.stringify(result));
+  console.log('... Done ...');
 }
 
 function mapDataIssueAll(data) {
@@ -65,4 +66,4 @@ function mapDataIssueTotal(data) {
   return resultData;
 }
 
-module.exports = { issueAllHandler, issueTotalHandler, testHandler };
+module.exports = { issueTotalHandler, issueAllHandler };

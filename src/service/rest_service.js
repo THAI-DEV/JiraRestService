@@ -32,31 +32,31 @@ async function getProjectAll() {
   return result;
 }
 
-async function getIssueAll() {
-  url = app_cont.REST_BASE_URL + '/search';
+// async function getIssueAll() {
+//   url = app_cont.REST_BASE_URL + '/search';
 
-  //'assignee in (712020:e0c1f4d1-f728-4fa1-aec0-5d3b4ecff8ba) AND project = SENSE-TEAM_IT AND  updated >= 2023-11-01 AND updated <= 2023-12-31 order by updated DESC'
-  let payload = {
-    fields: ['status', 'created', 'updated', 'summary', 'assignee', 'reporter', 'project'],
-    fieldsByKeys: false,
-    jql: 'project = SENSE-TEAM_IT AND  updated >= 2023-11-01 AND updated <= 2023-12-31 order by updated DESC',
-    startAt: 0,
-    maxResults: 100,
-  };
+//   //'assignee in (712020:e0c1f4d1-f728-4fa1-aec0-5d3b4ecff8ba) AND project = SENSE-TEAM_IT AND  updated >= 2023-11-01 AND updated <= 2023-12-31 order by updated DESC'
+//   let payload = {
+//     fields: ['status', 'created', 'updated', 'summary', 'assignee', 'reporter', 'project'],
+//     fieldsByKeys: false,
+//     jql: 'project = SENSE-TEAM_IT AND  updated >= 2023-11-01 AND updated <= 2023-12-31 order by updated DESC',
+//     startAt: 0,
+//     maxResults: 100,
+//   };
 
-  const response = await fetch(url, {
-    method: 'POST',
-    headers: {
-      Authorization: process.env.AUTHORIZATION,
-      Accept: 'application/json',
-      'Content-Type': 'application/json',
-    },
-    body: JSON.stringify(payload),
-  });
-  const result = await response.json();
-  // console.log(result);
-  return result;
-}
+//   const response = await fetch(url, {
+//     method: 'POST',
+//     headers: {
+//       Authorization: process.env.AUTHORIZATION,
+//       Accept: 'application/json',
+//       'Content-Type': 'application/json',
+//     },
+//     body: JSON.stringify(payload),
+//   });
+//   const result = await response.json();
+//   // console.log(result);
+//   return result;
+// }
 
 async function postIssueTotal(data) {
   url = app_cont.REST_BASE_URL + '/search';
@@ -82,7 +82,7 @@ async function postIssueTotal(data) {
   return result;
 }
 
-async function postTest(data) {
+async function postIssueAll(data) {
   url = app_cont.REST_BASE_URL + '/search';
 
   const jqlStr = util.computeJql(data);
@@ -198,6 +198,7 @@ async function findTotal(jqlStr) {
   //TODO yyyyyy
 
   console.log(result);
+  console.log('... Processing ...');
 
   return result;
 }
@@ -240,4 +241,4 @@ async function retrieveData(jqlStr, total) {
   return resultList;
 }
 
-module.exports = { getUserAll, getProjectAll, getIssueAll, postIssueTotal, postTest };
+module.exports = { getUserAll, getProjectAll, postIssueTotal, postIssueAll };

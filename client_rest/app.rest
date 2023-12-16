@@ -9,9 +9,6 @@ GET {{baseUrl}}/projectAll
 
 
 ###
-# GET {{baseUrl}}/issueAll
-
-###
 POST {{baseUrl}}/genJql
 Content-Type: application/json
 
@@ -38,39 +35,17 @@ Content-Type: application/json
 }
 
 
-###    
+###
 POST {{baseUrl}}/issueAll
 Content-Type: application/json
 
 {
     "assignee" : "712020:e0c1f4d1-f728-4fa1-aec0-5d3b4ecff8ba",
-     "operater" : "OR",
-     "reporter" : "712020:e0c1f4d1-f728-4fa1-aec0-5d3b4ecff8ba",
+    "operater" : "OR",
+    "reporter" : "712020:e0c1f4d1-f728-4fa1-aec0-5d3b4ecff8ba",
     "project" : "SENSE-TEAM_IT",
     "beginDate": "2023-11-01",
-    "endDate": "2023-12-31"
+    "endDate": "2023-12-31",
+    "pageNo": 0,
+    "rowPerPage": 100
 }
-
-
-
-
-#### Get Issue All
-# POST {{baseUrl}}/search
-# Authorization: {{credential}}
-# Content-Type: application/json
-
-# {
-#    "fields": [
-#     "status",
-#     "created",
-#     "updated",
-#     "summary",
-#     "assignee",
-#     "reporter",
-#     "project"
-#   ],
-#   "fieldsByKeys": false,
-#   "jql": "assignee in (712020:e0c1f4d1-f728-4fa1-aec0-5d3b4ecff8ba) AND project = SENSE-TEAM_IT AND  updated >= 2023-11-01 AND updated <= 2023-12-31 order by updated DESC",
-#   "startAt": 0,
-#   "maxResults":100
-# }

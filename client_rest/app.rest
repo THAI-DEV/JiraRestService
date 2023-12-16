@@ -1,4 +1,4 @@
-@baseUrl = http://localhost:3000
+@baseUrl = http://localhost:4000
 
 ###
 GET {{baseUrl}}/userAll
@@ -11,17 +11,27 @@ GET {{baseUrl}}/projectAll
 ###
 GET {{baseUrl}}/issueAll
 
-### 
-GET {{baseUrl}}/issueTotal
+
+###
+POST {{baseUrl}}/issueTotal
+Content-Type: application/json
+
+{
+    #  "assignee" : "712020:e0c1f4d1-f728-4fa1-aec0-5d3b4ecff8ba",
+    # "project" : "SENSE-TEAM_IT",
+    "beginDate": "2023-11-01",
+    "endDate": "2023-12-31"
+}
+
 
  
-###                                                         
+###                                                          
  POST {{baseUrl}}/test 
 Content-Type: application/json
 
 {
     # "assignee" : "712020:e0c1f4d1-f728-4fa1-aec0-5d3b4ecff8ba",
-    # "project" : "SENSE-TEAM_IT",
+    "project" : "SENSE-TEAM_IT",
     "beginDate": "2023-11-01",
     "endDate": "2023-12-31"
 }

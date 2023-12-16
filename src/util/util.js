@@ -60,4 +60,38 @@ function calRowPerPage(totalRows, rowsPerPage) {
   return result;
 }
 
-module.exports = { readJsonFile, pickField, writeJsonFile, calRowPerPage };
+function computeJql(data) {
+  jql = '';
+
+  if (data.assignee !== undefined) {
+    jql = jql + 'assignee in (' + data.assignee + ')';
+  }
+
+  if (data.project !== undefined) {
+    jql = jql + ' AND project = ' + data.project;
+  }
+
+  if (data.beginDate !== undefined) {
+    jql = jql + ' AND updated >= ' + data.beginDate;
+  }
+
+  if (data.endDate !== undefined) {
+    jql = jql + ' AND updated <= ' + data.endDate;
+  }
+
+  jql = jql + ' order by updated DESC';
+
+  jql = jql.trim();
+
+  if (jql.indexOf('AND') === 0) {
+    jql = jql.replace('AND', '');
+  }
+
+  jql = jql.trim();
+
+  console.log(jql);
+
+  return jql;
+}
+
+module.exports = { readJsonFile, pickField, writeJsonFile, calRowPerPage, computeJql };

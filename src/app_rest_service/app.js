@@ -14,7 +14,7 @@ app.get('/', handler.infoHandler);
 app.get('/userAll', handler.userAllHandler);
 app.get('/projectAll', handler.projectAllHandler);
 app.get('/issueAll', handlerIssue.issueAllHandler);
-app.get('/issueTotal', handlerIssue.issueTotalHandler);
+app.post('/issueTotal', handlerIssue.issueTotalHandler);
 app.post('/test', handlerIssue.testHandler);
 
 app.listen(process.env.PORT, () => {

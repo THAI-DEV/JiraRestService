@@ -1,5 +1,3 @@
-const { forEach } = require('lodash');
-
 var _ = require('lodash');
 var app_cont = require('../cont/app_cont.js');
 var util = require('../util/util.js');
@@ -60,13 +58,13 @@ async function getIssueAll() {
   return result;
 }
 
-async function getIssueTotal() {
+async function postIssueTotal(data) {
   url = app_cont.REST_BASE_URL + '/search';
 
-  //'assignee in (712020:e0c1f4d1-f728-4fa1-aec0-5d3b4ecff8ba) AND project = SENSE-TEAM_IT AND  updated >= 2023-11-01 AND updated <= 2023-12-31 order by updated DESC'
+  const jqlStr = util.computeJql(data);
+
   let payload = {
-    jql: 'project = SENSE-TEAM_IT AND  updated >= 2023-11-01 AND updated <= 2023-12-31 order by updated DESC',
-    // startAt: 0,
+    jql: jqlStr,
     maxResults: 0,
   };
 
@@ -80,14 +78,14 @@ async function getIssueTotal() {
     body: JSON.stringify(payload),
   });
   const result = await response.json();
-  // console.log(result);
+
   return result;
 }
 
 async function postTest(data) {
   url = app_cont.REST_BASE_URL + '/search';
 
-  const jqlStr = computeJql(data);
+  const jqlStr = util.computeJql(data);
 
   const result = await findTotal(jqlStr);
   const total = result.total;
@@ -122,7 +120,7 @@ function mapData(data) {
       created: item.fields.created,
       updated: item.fields.updated,
       assignee: item.fields.assignee?.displayName,
-      reporter: chkNull(item.fields.reporter?.displayName),
+      reporter: item.fields.reporter?.displayName,
       projectKey: item.fields.project.key,
       projectName: item.fields.project.name,
     };
@@ -207,18 +205,18 @@ async function findTotal(jqlStr) {
 async function retrieveData(jqlStr, total) {
   let pageTable = util.calRowPerPage(total, app_cont.ROW_PER_PAGE);
   console.log(pageTable);
-  let myList = [];
+
+  let resultList = [];
 
   for (let index = 0; index < pageTable.length; index++) {
     const element = pageTable[index];
 
-    //split  comma
-    let arrAssignee = element.split(',');
+    let arrList = element.split(',');
 
     let payload = {
       fields: ['status', 'created', 'updated', 'summary', 'assignee', 'reporter', 'project'],
       jql: jqlStr,
-      startAt: arrAssignee[1],
+      startAt: arrList[1],
       maxResults: app_cont.ROW_PER_PAGE,
     };
 
@@ -234,48 +232,12 @@ async function retrieveData(jqlStr, total) {
 
     const result = await response.json();
 
-    myList.push(result);
+    resultList.push(result);
   }
 
   //TODO zzzzzz
 
-  // console.log(myList);
-
-  return myList;
+  return resultList;
 }
 
-function computeJql(data) {
-  jql = '';
-
-  if (data.assignee !== undefined) {
-    jql = jql + 'assignee in (' + data.assignee + ')';
-  }
-
-  if (data.project !== undefined) {
-    jql = jql + ' AND project = ' + data.project;
-  }
-
-  if (data.beginDate !== undefined) {
-    jql = jql + ' AND updated >= ' + data.beginDate;
-  }
-
-  if (data.endDate !== undefined) {
-    jql = jql + ' AND updated <= ' + data.endDate;
-  }
-
-  jql = jql + ' order by updated DESC';
-
-  jql = jql.trim();
-
-  if (jql.indexOf('AND') === 0) {
-    jql = jql.replace('AND', '');
-  }
-
-  jql = jql.trim();
-
-  console.log(jql);
-
-  return jql;
-}
-
-module.exports = { getUserAll, getProjectAll, getIssueAll, getIssueTotal, postTest };
+module.exports = { getUserAll, getProjectAll, getIssueAll, postIssueTotal, postTest };

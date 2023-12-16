@@ -15,7 +15,9 @@ async function issueAllHandler(req, res) {
 }
 
 async function issueTotalHandler(req, res) {
-  let inputData = await restSrv.getIssueTotal().then((data) => {
+  // let bodyParam = await restSrv.postTest(req.body);
+
+  let inputData = await restSrv.postIssueTotal(req.body).then((data) => {
     return data;
   });
 
@@ -26,11 +28,11 @@ async function issueTotalHandler(req, res) {
 }
 
 async function testHandler(req, res) {
-  let xx = await restSrv.postTest(req.body);
+  let result = await restSrv.postTest(req.body);
 
   //TODO xxx
   res.setHeader('Content-Type', 'application/json');
-  res.end(JSON.stringify(xx));
+  res.end(JSON.stringify(result));
 }
 
 function mapDataIssueAll(data) {

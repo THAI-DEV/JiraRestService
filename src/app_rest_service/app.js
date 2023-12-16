@@ -17,9 +17,14 @@ app.use(function (req, res, next) {
 app.get('/', handler.infoHandler);
 app.get('/userAll', handler.userAllHandler);
 app.get('/projectAll', handler.projectAllHandler);
+
 app.post('/genJql', handler.genJqlHandler);
+
 app.post('/issueTotal', handlerIssue.issueTotalHandler);
 app.post('/issueAll', handlerIssue.issueAllHandler);
+
+app.post('/jqlTotal', handlerIssue.jqlTotalHandler);
+app.post('/jqlAll', handlerIssue.jqlAllHandler);
 
 app.listen(process.env.PORT, () => {
   console.log(`Run listening on port ${process.env.PORT}`);

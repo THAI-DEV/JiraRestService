@@ -71,3 +71,20 @@ Content-Type: application/json
   "startAt": 0,
   "maxResults":100
 }
+
+
+#### Get Issue All (Stautus Category)
+POST {{baseUrl}}/search
+Authorization: {{credential}}
+Content-Type: application/json
+
+{
+   "fields": [
+    "status"
+    
+  ],
+  "fieldsByKeys": false,
+  "jql": "StatusCategory in ('To Do','In Progress','Done') AND  updated >= 2023-12-01 AND updated <= 2023-12-31  order by created DESC",
+  "startAt": 0,
+  "maxResults":100
+}

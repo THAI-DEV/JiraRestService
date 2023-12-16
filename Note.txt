@@ -9,3 +9,9 @@ Run Rest Service
 
     npm start
     
+
+To do
+    https://jira-sense-info-tech.atlassian.net/activity
+
+    https://jira-sense-info-tech.atlassian.net/plugins/servlet/streams?maxResults=10&relativeLinks=true
+    https://jira-sense-info-tech.atlassian.net/plugins/servlet/streams?maxResults=20&relativeLinks=true

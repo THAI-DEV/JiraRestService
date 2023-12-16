@@ -19,6 +19,25 @@ async function issueAllHandler(req, res) {
   console.log('... Done ...');
 }
 
+async function jqlTotalHandler(req, res) {
+  let inputData = await restSrv.postJqlTotal(req.body).then((data) => {
+    return data;
+  });
+
+  let resultData = mapDataIssueTotal(inputData);
+
+  res.setHeader('Content-Type', 'application/json');
+  res.end(JSON.stringify(resultData));
+}
+
+async function jqlAllHandler(req, res) {
+  let result = await restSrv.postJqlAll(req.body);
+
+  res.setHeader('Content-Type', 'application/json');
+  res.end(JSON.stringify(result));
+  console.log('... Done ...');
+}
+
 function mapDataIssueAll(data) {
   let resultData = [];
 
@@ -49,4 +68,4 @@ function mapDataIssueTotal(data) {
   return resultData;
 }
 
-module.exports = { issueTotalHandler, issueAllHandler };
+module.exports = { issueTotalHandler, issueAllHandler, jqlTotalHandler, jqlAllHandler };

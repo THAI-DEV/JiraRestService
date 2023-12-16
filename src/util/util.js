@@ -118,6 +118,24 @@ function computeJql(data) {
 
   jql = jql.trim();
 
+  if (jql.indexOf('()') === 0) {
+    jql = jql.replace('()', '');
+  }
+
+  jql = jql.trim();
+
+  if (jql.indexOf('AND') === 0) {
+    jql = jql.replace('AND', '');
+  }
+
+  jql = jql.trim();
+
+  if (jql.indexOf('OR') === 0) {
+    jql = jql.replace('OR', '');
+  }
+
+  jql = jql.trim();
+
   console.log(jql);
 
   return jql;

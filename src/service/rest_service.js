@@ -75,6 +75,50 @@ async function postIssueAll(data) {
   return resultArr;
 }
 
+async function postJqlTotal(data) {
+  let url = app_cont.REST_BASE_URL + '/search';
+
+  const jqlStr = data.jql;
+
+  let payload = {
+    jql: jqlStr,
+    maxResults: 0,
+  };
+
+  const response = await fetch(url, {
+    method: 'POST',
+    headers: {
+      Authorization: process.env.AUTHORIZATION,
+      Accept: 'application/json',
+      'Content-Type': 'application/json',
+    },
+    body: JSON.stringify(payload),
+  });
+  const result = await response.json();
+
+  return result;
+}
+
+async function postJqlAll(data) {
+  const jqlStr = data.jql;
+
+  const result = await findTotal(jqlStr);
+  const total = result.total;
+
+  let dataRetrieve = await retrieveData(jqlStr, total, data.pageNo, data.rowPerPage);
+
+  let resultArr = [];
+  dataRetrieve.forEach((item, index) => {
+    let dataMap = mapData(item);
+
+    dataMap.forEach((item2, index2) => {
+      resultArr.push(item2);
+    });
+  });
+
+  return resultArr;
+}
+
 function mapData(data) {
   let resultData = [];
 
@@ -174,7 +218,7 @@ async function retrieveData(jqlStr, total, pageNo, rowPerPage) {
   }
 
   let pageInfoArr = util.calRowPerPage(total, rowPerPage);
-  console.log('All Page : ', pageInfoArr);
+  console.log('Calculated Page : ', pageInfoArr);
 
   if (pageNo < 0) {
     pageNo = 0;
@@ -190,7 +234,7 @@ async function retrieveData(jqlStr, total, pageNo, rowPerPage) {
     pageInfoArr = newPageInfoArr;
   }
 
-  console.log('Final Page : ', pageInfoArr);
+  console.log('Request Page : ', pageInfoArr);
 
   let resultList = [];
 
@@ -224,4 +268,4 @@ async function retrieveData(jqlStr, total, pageNo, rowPerPage) {
   return resultList;
 }
 
-module.exports = { getUserAll, getProjectAll, postIssueTotal, postIssueAll };
+module.exports = { getUserAll, getProjectAll, postIssueTotal, postIssueAll, postJqlTotal, postJqlAll };

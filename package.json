@@ -1,4 +1,17 @@
 {
+  "name": "rest_api_jira_sense",
+  "version": "1.0.0",
+  "description": "Rest Api For Jira SENSE",
+  "main": "app.js",
+  "scripts": {
+    "start": "node ./src/app_rest_service/app.js"
+  },
+  "engines": {
+    "node": ">=18.18.2",
+    "npm": ">=10.2.3"
+  },
+  "author": "DECH",
+  "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^16.3.1",

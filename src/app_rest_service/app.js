@@ -9,11 +9,15 @@ const app = express();
 
 app.use(cors());
 app.use(express.json());
+app.use(function (req, res, next) {
+  res.setHeader('X-Powered-By', 'SENSE INFO TECH');
+  next();
+});
 
 app.get('/', handler.infoHandler);
 app.get('/userAll', handler.userAllHandler);
 app.get('/projectAll', handler.projectAllHandler);
-// app.get('/issueAll', handlerIssue.issueAllHandler);
+app.post('/genJql', handler.genJqlHandler);
 app.post('/issueTotal', handlerIssue.issueTotalHandler);
 app.post('/issueAll', handlerIssue.issueAllHandler);
 

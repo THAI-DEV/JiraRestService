@@ -68,6 +68,8 @@ function computeJql(data) {
     oper = ' ' + data.operater;
   }
 
+  jql = '(' + jql;
+
   if (data.assignee !== undefined) {
     jql = jql + 'assignee in (' + data.assignee + ')';
   }
@@ -75,6 +77,8 @@ function computeJql(data) {
   if (data.reporter !== undefined) {
     jql = jql + oper + ' reporter in (' + data.reporter + ')';
   }
+
+  jql = jql + ')';
 
   if (data.project !== undefined) {
     jql = jql + ' AND project = ' + data.project;
@@ -98,8 +102,20 @@ function computeJql(data) {
 
   jql = jql.trim();
 
+  if (jql.indexOf('( AND') === 0) {
+    jql = jql.replace('( AND', '(');
+  }
+
+  jql = jql.trim();
+
   if (jql.indexOf('OR') === 0) {
     jql = jql.replace('OR', '');
+  }
+
+  jql = jql.trim();
+
+  if (jql.indexOf('( OR') === 0) {
+    jql = jql.replace('( OR', '(');
   }
 
   jql = jql.trim();

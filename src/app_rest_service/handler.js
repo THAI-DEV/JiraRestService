@@ -31,6 +31,13 @@ async function projectAllHandler(req, res) {
   res.end(JSON.stringify(resultData));
 }
 
+async function genJqlHandler(req, res) {
+  let jql = util.computeJql(req.body);
+
+  res.setHeader('Content-Type', 'application/json');
+  res.end(JSON.stringify({ jql: jql }));
+}
+
 function filterDataUserAll(inputData) {
   let resultData = _.filter(inputData, function (dataObj) {
     return dataObj.accountType === 'atlassian' && dataObj.active;
@@ -47,4 +54,4 @@ function filterDataProjectAll(inputData) {
   return resultData;
 }
 
-module.exports = { infoHandler, userAllHandler, projectAllHandler };
+module.exports = { infoHandler, userAllHandler, projectAllHandler, genJqlHandler };

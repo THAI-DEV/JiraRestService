@@ -6,4 +6,6 @@ Express
 
 Run Rest Service
     node .\src\app_rest_service\app.js
+
+    npm start
     

@@ -90,6 +90,17 @@ function computeJql(data) {
     jql = jql + ' AND updated <= ' + data.endDate;
   }
 
+  let statusSelectStr = '';
+  if (data.statusCategoryList.length > 0) {
+    data.statusCategoryList.map((item) => {
+      statusSelectStr = statusSelectStr + "'" + item + "',";
+    });
+
+    statusSelectStr = statusSelectStr.substring(0, statusSelectStr.length - 1);
+
+    jql = jql + ` AND statusCategory in (${statusSelectStr})`;
+  }
+
   jql = jql + ' order by updated DESC';
 
   jql = jql.trim();

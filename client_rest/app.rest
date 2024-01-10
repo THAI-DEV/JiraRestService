@@ -20,7 +20,9 @@ Content-Type: application/json
     "reporter" : "712020:e0c1f4d1-f728-4fa1-aec0-5d3b4ecff8ba",
     "project" : "SENSE-TEAM_IT",
     "beginDate": "2023-11-01",
-    "endDate": "2023-12-31"
+    "endDate": "2023-12-31",
+    "statusCategoryList": []
+    
 }
 
 ###
@@ -33,7 +35,10 @@ Content-Type: application/json
     "reporter" : "712020:e0c1f4d1-f728-4fa1-aec0-5d3b4ecff8ba",
     "project" : "SENSE-TEAM_IT",
     "beginDate": "2023-11-01",
-    "endDate": "2023-12-31"
+    "endDate": "2023-12-31",
+    "statusCategoryList": [],
+    "pageNo": 0,
+    "rowPerPage": 100
 }
 
 
@@ -49,6 +54,7 @@ Content-Type: application/json
     "project" : "SENSE-TEAM_IT",
     "beginDate": "2023-11-01",
     "endDate": "2023-12-31",
+    "statusCategoryList": [],
     "pageNo": 0,
     "rowPerPage": 100
 }

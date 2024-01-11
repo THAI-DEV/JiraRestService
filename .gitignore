@@ -48,5 +48,4 @@ Thumbs.db
 *.exe
 .env
 /output
-/client_rest
-/ex_data
+/data

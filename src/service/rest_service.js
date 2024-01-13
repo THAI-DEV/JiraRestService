@@ -133,7 +133,12 @@ function mapData(data) {
       reporter: item.fields.reporter?.displayName,
       projectKey: item.fields.project.key,
       projectName: item.fields.project.name,
+      parentKey: 'none',
     };
+
+    if (item.fields.parent) {
+      resultObj.parentKey = item.fields.parent.key;
+    }
 
     resultData.push(resultObj);
   });
@@ -161,6 +166,7 @@ function displayInputData(data) {
     console.log('Assignee : ' + item.fields.assignee.displayName);
     console.log('Reporter : ' + item.fields.reporter.displayName);
     console.log('Project : ' + item.fields.project.key + ' = ' + item.fields.project.name);
+    console.log('ParentKey : ' + item.fields.parent.key);
   });
 }
 
@@ -181,6 +187,8 @@ function displayResultData(data) {
 
     console.log('Assignee : ' + item.assignee);
     console.log('Reporter : ' + item.reporter);
+
+    console.log('Parent Key : ' + item.parentKey);
   });
 }
 
@@ -244,7 +252,7 @@ async function retrieveData(jqlStr, total, pageNo, rowPerPage) {
     let pageList = element.split(',');
 
     let payload = {
-      fields: ['status', 'created', 'updated', 'summary', 'assignee', 'reporter', 'project'],
+      fields: ['status', 'created', 'updated', 'summary', 'assignee', 'reporter', 'project', 'parent'],
       jql: jqlStr,
       startAt: pageList[1],
       maxResults: rowPerPage,

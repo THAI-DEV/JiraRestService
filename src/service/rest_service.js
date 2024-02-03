@@ -61,7 +61,7 @@ async function postIssueAll(data) {
   const result = await findTotal(jqlStr);
   const total = result.total;
 
-  let dataRetrieve = await retrieveData(jqlStr, total, data.pageNo, data.rowPerPage);
+  let dataRetrieve = await retrieveDataAsParallel(jqlStr, total, data.pageNo, data.rowPerPage);
 
   let resultArr = [];
   dataRetrieve.forEach((item, index) => {
@@ -105,7 +105,7 @@ async function postJqlAll(data) {
   const result = await findTotal(jqlStr);
   const total = result.total;
 
-  let dataRetrieve = await retrieveData(jqlStr, total, data.pageNo, data.rowPerPage);
+  let dataRetrieve = await retrieveDataAsSequence(jqlStr, total, data.pageNo, data.rowPerPage);
 
   let resultArr = [];
   dataRetrieve.forEach((item, index) => {
@@ -218,7 +218,7 @@ async function findTotal(jqlStr) {
   return result;
 }
 
-async function retrieveData(jqlStr, total, pageNo, rowPerPage) {
+async function retrieveDataAsSequence(jqlStr, total, pageNo, rowPerPage) {
   let url = app_cont.REST_BASE_URL + '/search';
 
   if (rowPerPage > 100 || rowPerPage <= 0) {
@@ -274,6 +274,91 @@ async function retrieveData(jqlStr, total, pageNo, rowPerPage) {
   }
 
   return resultList;
+}
+
+async function retrieveDataAsParallel(jqlStr, total, pageNo, rowPerPage) {
+  let url = app_cont.REST_BASE_URL + '/search';
+
+  if (rowPerPage > 100 || rowPerPage <= 0) {
+    rowPerPage = 100;
+  }
+
+  let pageInfoArr = util.calRowPerPage(total, rowPerPage);
+  console.log('Calculated Page : ', pageInfoArr);
+
+  if (pageNo < 0) {
+    pageNo = 0;
+  }
+
+  if (pageNo > pageInfoArr.length) {
+    pageNo = pageInfoArr.length;
+  }
+
+  if (pageNo >= 1) {
+    let newPageInfoArr = [];
+    newPageInfoArr.push(pageInfoArr[pageNo - 1]);
+    pageInfoArr = newPageInfoArr;
+  }
+
+  console.log('Request Page : ', pageInfoArr);
+
+  let resultList = [];
+
+  let promiseList = [];
+  for (let index = 0; index < pageInfoArr.length; index++) {
+    const element = pageInfoArr[index];
+
+    let pageList = element.split(',');
+
+    let payload = {
+      fields: ['status', 'created', 'updated', 'summary', 'assignee', 'reporter', 'project', 'parent'],
+      jql: jqlStr,
+      startAt: pageList[1],
+      maxResults: rowPerPage,
+    };
+
+    promiseList.push(getCallRestFn(payload, pageList[1], rowPerPage, url));
+  }
+
+  await Promise.all(promiseList);
+
+  for (let index = 0; index < promiseList.length; index++) {
+    const element = promiseList[index];
+    element.then((res) => {
+      resultList.push(res);
+    });
+  }
+
+  return resultList;
+}
+
+function getCallRestFn(payload, startAt, rowPerPage, url) {
+  payload.startAt = startAt;
+  payload.maxResults = rowPerPage;
+
+  return fetch(url, {
+    method: 'POST',
+    headers: {
+      Authorization: process.env.AUTHORIZATION,
+      Accept: 'application/json',
+      'Content-Type': 'application/json',
+    },
+    body: JSON.stringify(payload),
+  })
+    .then(onFulfilled, onRejected)
+    .catch((err) => console.error('[request failed]', err.message));
+}
+
+function onFulfilled(response) {
+  if (response.status !== 200 && !response.ok) {
+    throw new Error(`[${response.status}] Unable to fetch resource`);
+  }
+
+  return response.json();
+}
+
+function onRejected(err) {
+  console.error(err);
 }
 
 module.exports = { getUserAll, getProjectAll, postIssueTotal, postIssueAll, postJqlTotal, postJqlAll };

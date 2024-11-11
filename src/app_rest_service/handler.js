@@ -4,7 +4,7 @@ const restSrv = require('../service/rest_service.js');
 const util = require('../util/util.js');
 
 function infoHandler(req, res) {
-  res.send('Hello World!');
+  res.send('Jira Rest Service (last uodate : 11/11/2024 13:23)');
 }
 
 async function userAllHandler(req, res) {

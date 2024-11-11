@@ -1,9 +1,9 @@
 require('dotenv').config();
 
-var _ = require('lodash');
+const _ = require('lodash');
 
-var util = require('../util/util.js');
-var restSrv = require('../service/rest_service.js');
+const util = require('../util/util.js');
+const restSrv = require('../service/rest_service.js');
 
 main();
 

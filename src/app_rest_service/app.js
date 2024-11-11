@@ -1,5 +1,6 @@
-var handler = require('./handler.js');
-var handlerIssue = require('./handler_issue.js');
+const handler = require('./handler.js');
+const handlerIssue = require('./handler_issue.js');
+const handlerDemo = require('./handler_demo.js');
 
 require('dotenv').config();
 
@@ -25,6 +26,9 @@ app.post('/issueAll', handlerIssue.issueAllHandler);
 
 app.post('/jqlTotal', handlerIssue.jqlTotalHandler);
 app.post('/jqlAll', handlerIssue.jqlAllHandler);
+
+app.get('/demo01', handlerDemo.demo01Handler);
+app.post('/demo02', handlerDemo.demo02Handler);
 
 app.listen(process.env.PORT, () => {
   console.log(`Run listening on port ${process.env.PORT}`);

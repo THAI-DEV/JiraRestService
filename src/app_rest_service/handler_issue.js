@@ -1,4 +1,4 @@
-var restSrv = require('../service/rest_service.js');
+const restSrv = require('../service/rest_service.js');
 
 async function issueTotalHandler(req, res) {
   let inputData = await restSrv.postIssueTotal(req.body).then((data) => {

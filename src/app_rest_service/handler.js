@@ -1,7 +1,7 @@
-var _ = require('lodash');
+const _ = require('lodash');
 
-var restSrv = require('../service/rest_service.js');
-var util = require('../util/util.js');
+const restSrv = require('../service/rest_service.js');
+const util = require('../util/util.js');
 
 function infoHandler(req, res) {
   res.send('Hello World!');
